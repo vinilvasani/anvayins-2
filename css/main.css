@@ -111,8 +111,20 @@ body {
   left: -350px;
 }
 
+@media (max-width: 480px) {
+  .parallax__container section .video-container {
+    top: -95px;
+  }
+}
+
 .parallax__container section .video-container video {
   max-width: 120%;
+}
+
+@media (max-width: 480px) {
+  .parallax__container section .video-container video {
+    max-width: 180%;
+  }
 }
 
 .parallax__layer {

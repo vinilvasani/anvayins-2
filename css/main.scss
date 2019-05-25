@@ -61,8 +61,18 @@
       position: absolute;
       top: -150px;
       left: -350px;
+
+      @include mobile{
+        top: -95px;
+        // left: -250px;
+
+      }
       video{
         max-width: 120%;
+        @include mobile{
+        max-width: 180%;
+
+        }
         // max-height: 100%;
       }
     }
