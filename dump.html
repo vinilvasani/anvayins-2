@@ -1,0 +1,189 @@
+  <!-- Slider 1 Start     -->
+  <div class="tribe__slider__container">
+    <div class="slider__container text__align__right">
+        <!-- Class slider to add left and right slider icons -->
+        <span class="slider">
+            <!-- <i class="fas fa-arrow-left slick__previous"></i> -->
+            <div class="image-container slick__previous">
+                <img src="/assets/icons/arrow-right-white.svg" alt="">
+            </div>
+            <span class="slick__slide__number">1</span>/3
+            <!-- <i class="fas fa-arrow-right slick__next"></i> -->
+            <div class="image-container slick__next">
+                <img src="/assets/icons/arrow-right-white.svg" alt="">
+            </div>
+        </span>
+        <!-- <div>View All</div> -->
+    </div>
+    <!-- Tribe Details and Image Container -->
+    <div class="tribe__details__container">
+        <!-- Extra container for slick jQuery slider 1/3-->
+        <div class="slick__container" id="slick__container__1">
+            <!-- Put Image Here -->
+            <div class="image"></div>
+            <div class="image__information">
+                <!-- Class for slider container -->
+
+                <span class="state__name font-12">TRIBES</span>
+                <h3 class="tribe__name">Tribe Names</h3>
+                <p class="tribe__description font-18">Menchuka is inhabited primarily by the Memba
+                    tribals—Buddhists of Mongoloid stock and a particularly genial people. They have lived
+                    here for centuries, as a result of which they can boast of a rich cultural and
+                    mythological heritage. Menchuka itself is believed to have been blessed into existence
+                    by Guru Rinpoche, the 8th century saint who is revered by many as the ‘second Buddha’
+                </p>
+                <div class="tags__container">
+                    <span class="tag__item bg-home" title="Homestay"></span>
+                    <span class="tag__item bg-festival" title="Festival"></span>
+                    <span class="tag__item bg-nature" title="Nature"></span>
+                    <span class="tag__item bg-biking" title="Biking"></span>
+                </div>
+                <a href="/tribes.html" class="read__more__link">
+                    View All
+                    <img src="assets/icons/arrow-right-white.svg">
+                </a>
+            </div>
+        </div>
+        <!-- Extra container for slick jQuery slider 2/3-->
+        <div class="slick__container" id="slick__container__2">
+            <div class="image"></div>
+            <div class="image__information">
+                <!-- <div class="text__align__right">
+                            Class slider to add left and right slider icons
+                            <span class="slider">
+                                <span>2</span>/3
+                            </span>
+                            <span>View All</span>
+                        </div> -->
+                <span class="state__name bg-festival-white" title="Festival">S</span>
+                <h3 class="tribe__name bg-festival-white" title="Festival"> Names</h3>
+                <p class="tribe__description font-18">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="tags__container">
+                    <span class="tag__item bg-home" title="Homestay"></span>
+                    <span class="tag__item bg-festival" title="Festival"></span>
+                    <span class="tag__item bg-nature" title="Nature"></span>
+                    <span class="tag__item bg-biking" title="Biking"></span>
+                </div>
+                <a href="/festivals.html" class="read__more__link">
+                    View All
+                    <img src="assets/icons/arrow-right-white.svg">
+                </a>
+            </div>
+        </div>
+        <!-- Extra container for slick jQuery slider 3/3-->
+        <div class="slick__container" id="slick__container__3">
+            <div class="image"></div>
+            <div class="image__information">
+                <!-- <div class="text__align__right">
+                            Class slider to add left and right slider icons
+                            <span class="slider">
+                                <span>3</span>/3
+                            </span>
+                            <span>View All</span>
+                        </div> -->
+                <span class="state__name">CULTURAL HOTBEDS</span>
+                <h3 class="tribe__name">Location Names</h3>
+                <p class="tribe__description font-18">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="tags__container">
+                    <span class="tag__item bg-home" title="Homestay"></span>
+                    <span class="tag__item bg-festival" title="Festival"></span>
+                    <span class="tag__item bg-nature" title="Nature"></span>
+                    <span class="tag__item bg-biking" title="Biking"></span>
+                </div>
+                <a href="/cultural-hotbeds.html" class="read__more__link">
+                    View All
+                    <img src="assets/icons/arrow-right-white.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Slider 2 Start     -->
+
+
+<script>
+       //Slick Config Start
+       $('.tribe__details__container').slick({
+            nextArrow: document.querySelector('.slick__next'),
+            prevArrow: document.querySelector('.slick__previous')
+            // arrows: false,
+        });
+        //Slick Config End
+        //Slide Slider images array 
+        var slickSliderImages = [
+            '/assets/images/Resized/2.webp',
+            '/assets/images/Resized/3.webp',
+            '/assets/images/Resized/1.webp'
+        ]
+        var slickSliderCounter = 1;
+        //Slide Number Logic Start
+        $(".slick__previous").click(function () {
+            // alert("Previous Clicked");
+            // var x = $(".slick__slide__number").text() - 1;
+            //Change Image on Previous Click
+            if (slickSliderCounter === 1) {
+                slickSliderCounter = 3
+                document.querySelector('.tribe__slider__container').style.backgroundImage = `url(${slickSliderImages[slickSliderCounter - 1]})`;
+                document.querySelector('.tribe__slider__container').style.transition = "all 2s";
+            }
+            else {
+                slickSliderCounter -= 1;
+                document.querySelector('.tribe__slider__container').style.backgroundImage = `url(${slickSliderImages[slickSliderCounter - 1]})`;
+                document.querySelector('.tribe__slider__container').style.transition = "all 2s";
+            }
+            if ($(".slick__slide__number").text() == 1) {
+                $(".slick__slide__number").text(3);
+            }
+            else {
+                $(".slick__slide__number").text($(".slick__slide__number").text() - 1);
+            }
+        });
+        $(".slick__next").click(function () {
+            // alert("Next Clicked");
+            if (slickSliderCounter === 3) {
+                slickSliderCounter = 1
+                document.querySelector('.tribe__slider__container').style.backgroundImage = `url(${slickSliderImages[slickSliderCounter - 1]})`;
+                document.querySelector('.tribe__slider__container').style.transition = "all 2s";
+            }
+            else {
+                slickSliderCounter += 1;
+                document.querySelector('.tribe__slider__container').style.backgroundImage = `url(${slickSliderImages[slickSliderCounter - 1]})`;
+                document.querySelector('.tribe__slider__container').style.transition = "all 2s";
+            }
+            if ($(".slick__slide__number").text() == 3) {
+                $(".slick__slide__number").text(1);
+            }
+            else {
+                let slideNumberString = $(".slick__slide__number").text();
+                let slideNumberParsed = parseInt(slideNumberString);
+                $(".slick__slide__number").text(slideNumberParsed + 1);
+            }
+        })
+        //Slide Number Logic End 
+        //Function to generate random numbers
+        function generateRandonNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min
+        }
+        //Random rotate for Image Gallery Images
+        imageGalleryImages = Array.from(document.querySelectorAll('#image__gallery__image'));
+        // console.log(imageGalleryImages);
+        imageGalleryImages.forEach(element => {
+            //Set Rotation
+            var rotateDegree = generateRandonNumber(-5, 5);
+            //    console.log(rotateDegree);
+            element.style.transform = `rotate(${rotateDegree}deg)`;
+            //Set Z-index 
+            // var imageDepth = generateRandonNumber(5, 10);
+            // // console.log(imageDepth);
+            // element.style.zIndex = `${imageDepth}`;
+        });
+
+</script>

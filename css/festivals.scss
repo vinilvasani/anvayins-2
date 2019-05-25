@@ -1,0 +1,130 @@
+.festivals{
+
+    //Section 1
+    .bg-section-one{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/festivals/aoleang-1.webp);
+        background-size: cover;
+
+        .stacked__images__one{
+            #top__image__1{
+                div{
+                    background: url('../assets/images/festivals/festivals/aoleang-2.webp') !important;
+                    background-size: cover !important;
+                    background-position: right center !important;
+                    // transform: rotateZ(-90deg);
+
+
+                }
+            }
+            #bottom__image__1{
+                div{
+                    background: url('../assets/images/festivals/festivals/aoleang-3.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+        }
+    }
+
+    //Section 2
+    .bg-section-two{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/festivals/hornbill-2.webp);
+        background-size: cover;
+
+        .stacked__images__two{
+            #top__image__2{
+                div{
+                    background: url('../assets/images/festivals/festivals/hornbill-1.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+            #bottom__image__2{
+                div{
+                    background: url('../assets/images/festivals/festivals/hornbill-3.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+        }
+    }
+
+    //Section 3
+    .bg-section-three{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/festivals/mopin-1.webp);
+        background-size: cover;
+
+        .stacked__images__three{
+            #top__image__3{
+                div{
+                    background: url('../assets/images/festivals/festivals/mopin-3.webp') !important;
+                    background-size: cover !important;
+                    background-position: center center !important;
+                    // transform: rotateZ(90deg);
+
+                }
+            }
+            #bottom__image__3{
+                div{
+                    background: url('../assets/images/festivals/festivals/mopin-2.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+        }
+    }
+
+    //Section 4
+    .bg-section-four{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/festivals/reh-2.webp);
+        background-size: cover;
+
+        .stacked__images__four{
+            #top__image__4{
+                div{
+                    background: url('../assets/images/festivals/festivals/reh-1.webp') !important;
+                    background-size: cover !important;
+                    background-position: center center !important;
+
+                }
+            }
+            #bottom__image__4{
+                div{
+                    background: url('../assets/images/festivals/festivals/reh-3.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+        }
+    }
+
+    //Section 5
+    .bg-section-five{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/festivals/sonam-1.webp);
+        background-size: cover;
+
+        .stacked__images__five{
+            #top__image__5{
+                div{
+                    background: url('../assets/images/festivals/festivals/sonam-2.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+            #bottom__image__5{
+                div{
+                    background: url('../assets/images/festivals/festivals/sonam-3.webp') !important;
+                    background-size: cover !important;
+                    // background-position: right center !important;
+
+                }
+            }
+        }
+    }
+}

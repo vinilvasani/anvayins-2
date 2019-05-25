@@ -1,0 +1,37 @@
+#section__image__1 {
+  pointer-events: none;
+}
+
+#section__5__container {
+  padding: 5em 0;
+}
+
+@media (max-width: 480px) {
+  #section__5__container {
+    position: relative;
+    top: -52px;
+  }
+}
+
+.footer__brush__stroke {
+  position: relative;
+  margin-top: -160px !important;
+}
+
+footer {
+  position: relative;
+  margin-top: 0px;
+}
+
+.itinerary__cta {
+  margin-top: -70px;
+  padding: 10em 0;
+}
+
+@media (max-width: 480px) {
+  .itinerary__cta {
+    padding-bottom: 8em !important;
+    margin-top: -105px;
+  }
+}
+/*# sourceMappingURL=story-page.css.map */

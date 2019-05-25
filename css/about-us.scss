@@ -1,0 +1,59 @@
+@import "helpers/variables.scss";
+@import "helpers/mixins.scss";
+
+
+
+
+body{
+    background: url('/assets/images/brown-paper-full.webp');
+    // background-size: cover;
+}
+
+
+
+.content-container{ 
+    padding-top: 10rem;
+    @include mobile{
+        padding-top: 6rem;
+
+    }
+    padding-left: 6.9rem;
+    padding-right: 6.9rem;
+    display: flex;
+    @include mobile{
+        flex-direction: column;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+
+   
+
+    // .about-us-item{
+    //     width: 50%;
+    // }
+
+    .about-us-title{
+        width: 80%;
+        flex-grow: 1;
+        margin-top: 1rem;
+
+    }
+
+    .about-us-content{
+        padding: 0 6rem;
+        @include mobile{
+            padding: 0;
+        }
+        p{
+            line-height: 1.65;
+        }
+    }
+}
+
+.padding-fix{
+    padding-top: 6rem;
+    @include mobile{
+    padding-top: 4rem;
+
+    }
+}

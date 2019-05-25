@@ -1,0 +1,42 @@
+/* ===========
+Defining Font Butler
+=========== */
+@font-face {
+  font-family: 'Butler';
+  src: url("../../assets/fonts/Butler.woff") format("woff"), url("../../assets/fonts/Butler.woff2") format("woff2"), url("../../assets/fonts/Butler.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url("../../assets/fonts/Butler-Light.woff") format("woff"), url("../../assets/fonts/Butler-Light.woff2") format("woff2"), url("../../assets/fonts/Butler-Light.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url("../../assets/fonts/Butler-Medium.woff") format("woff"), url("../../assets/fonts/Butler-Medium.woff2") format("woff2"), url("../../assets/fonts/Butler-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url("../../assets/fonts/Butler-Bold.woff") format("woff"), url("../../assets/fonts/Butler-Bold.woff2") format("woff2"), url("../../assets/fonts/Butler-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url("../../assets/fonts/Butler-Black.woff") format("woff"), url("../../assets/fonts/Butler-Black.woff2") format("woff2"), url("../../assets/fonts/Butler-Black.otf") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ===========
+    Butler Font Defined
+    =========== */
+/*# sourceMappingURL=fonts.css.map */

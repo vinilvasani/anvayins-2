@@ -1,0 +1,31 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "festival-details/festival-details";
+
+
+
+.three__column__content__original{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+.three__column__content{
+    display: grid;
+    grid-template-columns: 50% 40% auto;
+    .content__1{
+        div{
+            .image-container{
+                margin: 4em 0;
+                width: 10%;
+            }
+        }
+    }
+    .content__2{
+        .image-container{
+            width: 15%;
+        }
+    }
+}
+.three__column__content__inverted{
+    display: grid;
+    grid-template-columns: auto 40% 55%;
+}

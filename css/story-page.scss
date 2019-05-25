@@ -1,0 +1,39 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// To allow clicking menu icon
+
+#section__image__1{
+    pointer-events: none;
+}
+
+
+#section__5__container{
+    padding: 5em 0;
+    @include mobile{
+        // padding: 0em 0 5em 0;
+        position: relative;
+        top: -52px;
+    }
+}
+
+
+.footer__brush__stroke{
+    position: relative;
+    margin-top: -160px !important;
+}
+
+footer{
+    position: relative;
+    margin-top: 0px;
+}
+
+.itinerary__cta{
+    @include mobile{
+        padding-bottom: 8em !important;
+        margin-top: -105px;
+    }
+    margin-top: -70px;
+    padding: 10em 0;
+    
+}

@@ -1,0 +1,1598 @@
+@import "helpers/fonts.scss";
+@import "helpers/variables.scss";
+@import "helpers/mixins.scss";
+@import "helpers/global.scss";
+
+
+
+//Index.html Specific styles s
+.parallax__container{
+  // background: url('/assets/images/hero-bg.webp');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  // pointer-events: none;
+  .parallax {
+  //   perspective: 100px;
+  pointer-events: none;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin-left: -1495px;
+    // border: solid 1px black;
+   
+    .parallax__hide{
+      // width: 100%;
+      height: 100vh;
+      background: #000f0f;
+      position: absolute;
+      top: 100vh;
+      z-index: 55;
+    }
+    // Position 2 Images
+    .real__image__3{
+      left: 20%;
+      bottom: -60%;
+      // transform: scale(1) !important;
+    }
+    .real__image__2{
+      left: 20%;
+      bottom: 25%;
+      // transform: scale(1) !important;
+
+    }
+    .real__image__1{
+      left: 20%;
+      bottom: 33%;
+      // transform: scale(1) !important;
+
+    }
+  }
+  section{
+    position: absolute;
+    width: 100%;
+    .video-container{
+      position: absolute;
+      top: -150px;
+      left: -350px;
+      video{
+        max-width: 120%;
+        // max-height: 100%;
+      }
+    }
+  }
+  
+}
+
+//Stlye for Images in the Parallax
+.parallax__layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  
+  img{
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.parallax__layer__6{
+  img{
+  filter: blur(2px);
+  transform: scale(0.7);
+  bottom: -14%;
+
+  }
+}
+
+//Div/Block Coverring the bottom part of the parallax images 
+.parallax__cover{
+  background: #000f0f;
+  display: block;
+  // position: absolute;
+  // top: 100vh;
+  // left: 0;
+  // right: 0;
+  height: 3000px;
+  z-index: 50;
+  // border: 5px solid lightseagreen;
+
+}
+
+$parallax__layers: 6;
+
+@for $i from 0 through $parallax__layers {
+ 
+  .parallax__layer__#{$i}{
+     z-index: $i * 2;
+  }
+}
+
+.main__heading{
+    position: absolute;
+    // left: 50%;
+    top: 30%;
+    width: 100%;
+    // transform: translateX(-50%);
+    // display: block;
+    text-align: center;
+    // font-size: 2.8em;
+    z-index: 7;
+    padding: 0;
+    // margin: 0;
+
+    h1 {
+      // font-size: 4em;
+      margin: 20px 0;
+    }
+    
+    i {
+      transform: scale(2.5);
+    }
+
+    .image-container{
+      margin: 0 auto;
+      width: 5%;
+      @include mobile{
+        width: 12%;
+      }
+    }
+}
+.container__rest {
+    // position: absolute;
+    // top: 80%;
+    // width: 100%;
+    
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    // @include mobile{
+    //   display: grid;
+    //   grid-template-columns: repeat(6, 1fr);
+    // }
+
+        .heading__1{
+            // margin: 4em 0px;
+            grid-column: 1 / 7;
+            color: map-get($colors, color-white);
+            padding: 0 4rem;
+            text-align: center;
+            @include mobile{
+              padding: 0 1.5rem;
+            }
+            //Heading
+           .col-1__heading{
+             margin: 2.4rem 0 3rem 0;
+           }
+
+           //Content
+           .col-1__content{
+             
+          }
+            
+            // font-size: 2em;
+            @include mobile{
+              grid-column: 1 / -1;
+              margin: 3em 0px 1em 0px;
+              
+             
+            }
+        }
+        .heading__content__1{
+          margin: 2.2em 0px;
+          grid-column: 7 / 12;
+          color: map-get($colors, color-white);
+          a{
+            display: block;
+            margin: 2em 0;
+          }
+          // font-size: 15px;
+          @include mobile{
+            grid-column: 1 / -1;
+            padding: 0 1.5em;
+            margin: 0;
+          }
+          
+        }
+        // 1st Slider Start
+        .tribe__slider__container{
+          grid-column: 1 / -1;
+          background-image: url('/assets/images/Resized/2.webp');
+          // background-position: left center;
+          background-size: cover; 
+          transition: all 2s;
+          padding: 4em 0 6em 0;
+        //Slider Container Grid
+        .slider__container{
+              grid-column: 1 / 12;
+              color: map-get($colors, color-white);
+              margin: 1em 6em 2em 0;
+          // Arrow slider CSS
+          .slider{
+            span{
+              font-size: 1.5em;
+              display: inline-block;
+            }
+            div{
+              display: inline-block;
+            }
+
+            .slick__previous{
+              transform: rotateY(180deg);  
+              margin: 0 1em 0 0;
+              padding: 0.8em 0.2em;
+
+            }
+
+            .slick__next{
+              margin: 0 0 0 1em;
+              padding: 0.8em 0.2em;
+
+            }
+          
+            .previous{
+              // display: inline-block;
+              // // font-family: "Font Awesome 5 Free";
+              // // content: "\f060";
+              // // font-weight: 900;
+              // margin: 0 0.7em 0 0;
+            }
+            .next{
+              // display: inline-block;
+              // // font-family: "Font Awesome 5 Free";
+              // // content: "\f061";
+              // // font-weight: 900;
+              // margin: 0 0 0 0.7em;
+            }
+            
+          }
+        }
+        //Tribe Details and Image Container
+        .tribe__details__container {
+        //Image Placeholder
+        grid-column: 1 / -1;
+        #slick__container__1{
+          // background: url("/assets/images/IMG_3200.webp");
+          background-size: cover;
+        }
+        #slick__container__2{
+          // background: url("/assets/images/IMG_3666.webp");
+          background-size: cover;
+        } 
+        #slick__container__3{
+          // background: url("/assets/images/IMG_4991.webp");
+          background-size: cover;
+        }
+        .slick__container{
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          .image{
+            grid-column: 1 / 7;
+            @include mobile{
+              grid-column: 1 / -1
+            }
+          }
+          //Information alongside the first Image
+          .image__information{
+            grid-column: 7 / 12;
+            color: map-get($colors, color-white);
+            @include mobile{
+              grid-column: 1 / -1;
+              padding: 2em 3em;
+            }
+            span {
+              display: block;
+              margin: 0px 0px 1em 0px;
+            }
+            //Tags container 
+            div{
+              margin: 1.5em 0;
+            }
+            
+            //State name Span
+            .state__name {
+              font-size: 10px;
+            }
+            //Tribe name H3
+            .tribe__name{
+              font-size: 2em;
+              margin: 0.5em 0;
+            }
+            //Tribe Description p (paragraph)
+            .tribe__description{
+              padding: 0 20% 0 0;
+              margin: 0;
+              @include mobile{
+                padding: 0;
+              }
+            }
+            //Read More Link Fix
+            .read__more__link{
+              margin: 2em 0;
+              display: block;
+              img{
+                display: inline;
+              }
+            }
+          
+          }
+        }
+      }
+    }
+    //1st Slider End
+        //Discover Experiences Row
+        //Discover Experiences Column
+        .discover__experiences{
+          padding: 5em 7em 9em 3em;
+          // margin: 4em 0;
+          // position: relative;
+          background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/Resized/7.webp');
+          background-size: cover;
+          // height: 100vh;
+
+
+          
+          grid-column: 1 / 7;
+          color: map-get($colors, color-white);
+          @include mobile{
+            grid-column: 1 / -1;
+            padding: 2em 2em 2em 2em;
+            margin: 0;
+          }
+          // &__content{
+          //   padding: 2em 5em;
+          // }
+          h2{
+            margin: 1em 0 3em 0;
+            font-size: 2em;
+            font-weight: lighter;
+            // margin: 5em 3em;
+          }
+          h3{
+            margin: 1.5em 0;
+            font-size: 1.5em;
+          }
+          p{
+            margin: 0;
+            a{
+              display: block;
+              margin: 2em 0;
+            }
+            @include mobile{
+              padding: 0;
+            }
+          }
+      
+        }
+        //2 x 2 Grid alongside Discover Experiences
+        .discover__experiences__grid{
+          //Images in the discover experiences grid
+          #discover__experiences__grid__1{
+            background: url("/assets/images/Resized/5.webp");
+
+            background-size: cover;
+            cursor: pointer;
+            transition: all 0.3s;
+            
+          }
+          #discover__experiences__grid__2{
+            // background: url("/assets/images/IMG_3679.webp");
+
+            background-size: cover;
+            cursor: pointer;
+
+          }
+          #discover__experiences__grid__3{
+            background: url("/assets/images/Resized/4.webp");
+            background-size: cover;
+            cursor: pointer;
+
+          }
+          #discover__experiences__grid__4{
+            background: url("/assets/images/Resized/6.webp");
+            // background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/assets/images/Resized/6.webp");
+            background-size: cover;
+            cursor: pointer;
+
+          }
+          grid-column: 7 / -1;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          color: map-get($colors, color-white);
+          @include mobile{
+            grid-column: 1 / -1;
+            // margin: 3em 0;
+          }
+          div{
+            font-size: 1.4em;
+            font-weight: lighter;
+            @include mobile{
+              line-height: 12em;
+            }
+            span{
+              a{
+                font-size: 0.7em;
+              }
+              @include mobile{
+                line-height: 12em;
+              }
+            }
+            position: relative;
+            z-index: 1;
+            &:before{
+              z-index: -1;
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
+              opacity: 0.55;
+              transition: all 0.3s
+              
+            }
+            &:hover:before{
+              opacity: 0.75;
+            }
+
+          }
+        }
+        //Stacked images start
+        .stacked__images__container{
+          grid-column: 1 / -1;
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          background: url('/assets/images/brown-paper.webp');
+          background-size: cover;
+          background-position: bottom;
+          z-index: 100;
+          padding: 0 0 4em 0;
+          //2 stacked images
+        #stacked__images__home{
+          figure{
+            -webkit-box-shadow: -2px 5px 15px 2px rgba(0,0,0,0.35);
+            -moz-box-shadow: -2px 5px 15px 2px rgba(0,0,0,0.35);
+            box-shadow: -2px 5px 15px 2px rgba(0,0,0,0.35);
+            &:hover{
+              -webkit-box-shadow: -2px 5px 18px 2px rgba(0,0,0,0.35);
+            -moz-box-shadow: -2px 5px 18px 2px rgba(0,0,0,0.35);
+            box-shadow: -2px 5px 18px 2px rgba(0,0,0,0.35);
+            }
+            div{
+              height: 300px;
+              width: 300px;
+              background-size: cover;
+            }
+          }
+        }
+        .stacked__images{
+          grid-column: 1 / 7;
+          position: relative;
+          @include mobile{
+            grid-column: 1 / -1;
+            display: none;
+            
+          }
+          transition: all 0.4s;
+          &:hover{
+            transform: scale(1.1) rotate(4deg);
+          }
+          figure{
+            background: map-get($colors, color-white);
+            margin: 0;
+            width: fit-content;
+            position: absolute;
+            padding: 1em 1em 0 1em;
+            
+
+
+            figcaption{
+              color: map-get($colors, color-white);
+              text-align: center;
+              padding: 1em 0;
+
+            }
+
+            
+          }
+          //Top Image
+          &__2{
+            top: 20%;
+            left: 30%;
+            transform: rotate(-5deg);
+            div{
+              background: url('/assets/images/Resized/8.webp');
+            }
+          }
+          //Bottom Image
+          &__1{
+            top: 30%;
+            left: 18%;
+            transform: rotate(-15deg);
+            div{
+              background: url('/assets/images/Resized/9.webp');
+            }
+          }
+        
+
+        }
+        //2 Stacked images information
+        .stacked__images__information{
+          .links__container{
+            padding-right: 4em;
+            display: flex;
+            justify-content: space-between;
+            .read__more__link{
+              padding: 0;
+            }
+          }
+          grid-column: 7 / -1;
+          color: map-get($colors, color-white);
+          margin: 10em 0;
+          padding: 0 0 0 2em;
+          @include mobile{
+            padding: 0 2em;
+          }
+         
+          .read__more__link{
+            padding: 0 8em 0 0;
+            @include mobile{
+              padding: 0;
+            }
+            &:after{
+              color: map-get($colors, primary-dark);
+            }
+          }
+          @include mobile{
+            grid-column: 1 / -1;
+            margin: 2em 0;
+          }
+          div{
+            margin: 0 0.8em 0 0;
+          }
+          h2{
+            margin: 2.5em 0 1em 0;
+          }
+          p{ 
+            margin: 1em 0;
+            padding: 0 10em 0 0;
+            @include mobile{
+              padding: 0 0 0 0;
+              text-justify: inter-word;
+            }
+          }
+          .read__more__link{
+            display: block;
+            margin: 2em 0 !important;
+          }
+        }
+        }
+        //Stacked images end
+        //Image Gallery Start
+        .image__gallery__container{
+          grid-column: 1 / -1;
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/assets/images/wood-horizontal.webp');
+          padding: 3em 0 8em 0;
+          background-size: cover;
+          position: relative;
+          top: -14%;
+          .image__gallery__title{
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            margin: 2em 0;
+            padding: 0 4em;
+            @include mobile{
+              padding: 0 1em 0 2em;
+            }
+            h2{
+              margin: 0;
+            }
+            span{
+              color: map-get($colors, color-white);
+            }
+          }
+          //Remove Ugly ScrollBar
+          .image__gallery::-webkit-scrollbar { /* WebKit */
+            width: 0px;
+          }
+          .image__gallery{
+            grid-column: 1 / -1;
+            // height: 500px;
+            // background: lime;
+            // width:  100%;
+            overflow: hidden;
+            padding: 2em 0 2em 3em;
+            display: flex;
+            margin: 0;
+            @include mobile{
+              overflow: auto;
+              //Remove Ugly ScrollBar
+              scrollbar-width: none; /* Firefox */
+              -ms-overflow-style: none;  /* IE 10+ */ 
+            }
+            figure{
+              background: map-get($colors, color-white);
+              margin: 0 -0.7em 0 0;
+              width: fit-content;
+              // position: absolute;
+              padding: 1em 1em 0 1em;
+              border-radius: 2px;
+              -webkit-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+              -moz-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+              box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+              transition: all 0.5s;
+              
+              img{
+                height: 200px;
+                width: 200px;
+                // object-fit: contain
+              }
+              div{
+                height: 200px;
+                width: 200px;
+                // background-size: cover;
+              }
+              #image__gallery__image__1{
+                background: url('/assets/images/Resized/7.webp');
+                background-size: cover;
+  
+              }
+              #image__gallery__image__2{
+                background: url('/assets/images/Resized/5.webp');
+                background-size: cover;
+  
+              }
+              #image__gallery__image__3{
+                background: url('/assets/images/Resized/9.webp');
+                background-size: cover;
+  
+              }
+              #image__gallery__image__4{
+                background: url('/assets/images/Resized/4.webp');
+                background-size: cover;
+  
+              }
+              #image__gallery__image__5{
+                background: url('/assets/images/Resized/8.webp');
+                background-size: cover;
+  
+              }
+              #image__gallery__image__6{
+                background: url('/assets/images/Resized/6.webp');
+                background-size: cover;
+  
+              }
+              &:hover{
+                transform: translateY(-10%) !important;
+                
+              }
+          
+              figcaption{
+                color: map-get($colors, color-white);
+                text-align: center;
+                padding: 1em 0;
+          
+              }
+          
+              
+            }
+          }
+        }
+        //Image Gallery End
+    }
+}
+
+//Index.html Specific styles end
+
+
+
+
+
+
+
+
+
+//tribes-list.html specific styles start
+section{
+  // border: 2px solid black;
+  height: 100vh;
+  @include mobile{
+    height: auto;
+  }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  @include mobile{
+    width: 100%;
+  }
+
+//Navbar Style start
+.navbar{
+  // grid-column: 1 / -1;
+  // padding: 0 10%;
+  display: flex;
+  @include mobile{
+    padding: 1em 1em;
+  }
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  padding: 26px 7em;
+  z-index: 1000;
+  @include mobile{
+    z-index: 1000;
+    background: none;
+  }
+  #menu__icon{
+    display: none;
+    @include mobile{
+      display: inline-block;
+      margin: 0 0 0 50%;
+    }
+  }
+  .logo__container{
+    width: 14%;
+    @include mobile{
+      width: 40%;
+      display: inline-block;
+    }
+    img{
+      max-width: 100%;
+      margin: auto 0;
+    }
+  }
+  .logo{
+    font-size: 30px;
+  }
+  nav{
+    @include mobile{
+      display: none;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50px;
+      background: #fff;
+      z-index: 250;
+      // max-height: 0;
+
+    }
+    // width: 100%;
+    transition: all 0.5s;
+
+    a{
+      margin: 0 0 0 2em;
+      //TO center align the navbar items with the logo
+      line-height: 40px;
+      // display: none;
+      color: map-get($colors, primary-dark);
+      // max-height: 0;
+    }
+  }
+  .mobile__menu {
+    display: block;
+    background: #fff;
+    // max-height: 500px;
+    transition: all 0.5s;
+
+    a{
+      display: block;
+      margin: 0;
+      text-align: center;
+      // max-height: 500px;
+
+    }
+  }
+}
+
+//Navbar Style end
+
+.stacked__images__tribes{
+  figure{
+    div{
+      height: 250px;
+      width: 250px;
+      @include mobile{
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+}
+
+//Section Grid Columns
+#section__1{
+  grid-column: 2 / 7;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__2{
+  grid-column: 7 / 12;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__3{
+  grid-column: 2 / 7;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__4{
+  grid-column: 7 / 12;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__5{
+  grid-column: 2 / 7;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__6{
+  grid-column: 7 / 12;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__7{
+  grid-column: 2 / 7;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__8{
+  grid-column: 7 / 12;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+#section__9{
+  grid-column: 2 / 7;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+}
+
+//Section information start
+.section{
+  margin: auto 0;
+  @include mobile{
+    padding: 3em 1.5em;
+  }
+  // padding: 0 2em;
+  //State Name
+  .state__name{
+    font-size: 12px;
+    display: block;
+  }
+  //Section tags to refer elements in the section informatioc such that there is no conflict 
+  .read__more__link{
+    color: #fff;
+    img{
+      margin: 0 10px -2px 10px;
+    }
+  }
+
+  //Tags row
+  .section__tags__container{
+    margin: 1.5em 0;
+    span{
+      display: inline-block !important;
+      border-radius: 30%;
+      // background: #D3D3D3;
+      width: 5em;
+      height: 5em;
+      margin: 0 2.5% 0 0 !important;
+      // vertical-align: middle;  
+      font-size: 0.5em;
+      text-align: center;
+      line-height: 5em;
+    }
+  }
+}
+
+//Section Information End
+
+//Test SVG Path Start
+
+//Section 1 Path
+#svg__path__1{
+  grid-column: 7 / -1;
+  grid-row-start: 1;
+  .inline__svg__container{
+    top: 50%;
+    right: 40%;
+  }
+}
+
+//Section 2 Path
+#svg__path__2{
+  grid-column: 1 / 7;
+  grid-row-start: 1;
+  .inline__svg__container {
+    transform: scaleX(-1);
+    top: 55%;
+    left: 25%;
+  }
+}
+
+//Section 3 Path
+#svg__path__3{
+  grid-column: 7 / -1;
+  .inline__svg__container {
+    top: -10%;
+    right: 50%;
+  }
+}
+
+//Section 4 Path
+#svg__path__4{
+  grid-column: 1 / 7;
+  grid-row-start: 1;
+  .inline__svg__container {
+    transform: scaleX(-1);
+    top: 75%;
+    left: 50%;
+  }
+}
+
+//Section 5 Path
+#svg__path__5{
+  grid-column: 7 / -1;
+  .inline__svg__container {
+    top: 40%;
+    right: 40%;
+  }
+}
+
+
+
+
+
+.svg__path{
+  @include mobile{
+    display: none;
+  }
+  
+  position: relative;
+  z-index: 100;
+
+  .inline__svg__container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+  //SVG Path Custom Style Exported from Adobe Illustrator
+    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+                    
+    .path {
+        stroke-width: 2;
+    }  
+  }
+}
+
+//Test SVG Path End
+
+//Stacked Section Images Stlye Start
+#section__image__1{
+  grid-column: 7 / -1;
+  grid-row-start: 1;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+  #bottom__image__1{
+    div{
+      background: url('/assets/images/Resized/4.webp');
+      background-size: cover;
+
+    }
+  }
+  #top__image__1{
+    div{
+      background: url('/assets/images/Resized/5.webp');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__2{
+  grid-column: 1 / 7;
+  grid-row-start: 1;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+  #bottom__image__2{
+    div{
+      background: url('/assets/images/Resized/6.webp');
+      background-size: cover;
+
+    }
+  }
+  #top__image__2{
+    div{
+      background: url('/assets/images/Resized/7.webp');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__3{
+  grid-column: 7 / -1;
+  grid-row-start: 1;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+  #bottom__image__3{
+    div{
+      background: url('/assets/images/Resized/8.webp');
+      background-size: cover;
+
+    }
+  }
+  #top__image__3{
+    div{
+      background: url('/assets/images/Resized/9.webp');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__4{
+  grid-column: 1 / 7;
+  grid-row-start: 1;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+  #bottom__image__4{
+    div{
+      background: url('/assets/images/Resized/10.webp');
+      background-size: cover;
+
+    }
+  }
+  #top__image__4{
+    div{
+      background: url('/assets/images/Resized/4.webp');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__5{
+  grid-column: 7 / -1;
+  grid-row-start: 1;
+  @include mobile{
+    grid-column: 1 / -1;
+  }
+  #bottom__image__5{
+    div{
+      background: url('/assets/images/Resized/5.webp');
+      background-size: cover;
+
+    }
+  }
+  #top__image__5{
+    div{
+      background: url('/assets/images/Resized/6.webp');
+      background-size: cover;
+
+    }
+  }
+}
+
+.stacked__images{
+  // grid-column: 1 / 7;
+  position: relative;
+  height: 100%;
+  z-index: 200;
+  @include mobile{
+    height: 70vh;
+  }
+  // @include mobile{
+  //   grid-column: 1 / -1
+  // }
+  // transition: all 0.4s;
+  // //Top Image
+  // &:hover > .stacked__images__2{
+  //   transform: scale(1.1) rotate(-1deg);
+  //   -webkit-box-shadow: -4px 8px 8px 4px rgba(0,0,0,0.35);
+  //   -moz-box-shadow: -4px 8px 8px 4px rgba(0,0,0,0.35);
+  //   box-shadow: -4px 8px 8px 4px rgba(0,0,0,0.35);
+  // }
+  // //Bottom image
+  // &:hover > .stacked__images__1{
+  //   transform: scale(1.1) rotate(-15deg);
+  //   -webkit-box-shadow: -1px 5px 8px 2px rgba(0,0,0,0.35);
+  //   -moz-box-shadow: -1px 5px 8px 2px rgba(0,0,0,0.35);
+  //   box-shadow: -1px 5px 8px 2px rgba(0,0,0,0.35);
+  // }
+
+  figure{
+    background: map-get($colors, color-white);
+    margin: 0;
+    width: fit-content;
+    position: absolute;
+    padding: 1em 1em 0 1em;
+    border-radius: 2px;
+    -webkit-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+    box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
+
+    figcaption{
+      color: map-get($colors, color-white);
+      text-align: center;
+      padding: 1em 0;
+
+    }
+
+    
+  }
+  //Top Image
+  &__2{
+    top: 18%;
+    left: 30%;
+    @include mobile{
+      left: 28%;
+    }
+    transform: rotate(-5deg);
+    transition: all 0.4s;
+    
+  }
+  //Bottom Image
+  &__1{
+    top: 31%;
+    left: 18%;
+    @include mobile{
+      left: 15%;
+    }
+    transform: rotate(-8deg);
+    transition: all 0.4s;
+
+  }
+
+
+//Section information end
+
+  }
+}
+
+//Itinerary CTA Style Start
+.itinerary__cta{
+  display: grid;
+  // justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  @include mobile{
+    grid-template-columns: 1fr !important;
+    padding: 5em 0 4em 0 !important;
+  }
+  padding: 5em 0em;
+  // background: url('/assets/images/wood-horizontal.webp');
+  // background-size: cover;
+  // position: relative;
+  // top: -50;
+  margin-top: -20px;
+  div{
+    span{
+      font-size: 16px;
+    }
+  }
+  &__column__1{
+    margin: 0 0 2em 0;
+    .cta__content__container{
+      h2{
+        margin: 0 0 1em 0;
+      }
+    }
+  }
+  &__column__2{
+    .cta__link__container{
+      @include mobile{
+        padding: 2em 2em !important;
+        margin: 1em 0 0 0 !important;
+      }
+    padding: 2em 5em;
+    background: #0D98BA;
+    cursor: pointer;
+      .read__more__link{
+        color: #fff;
+        img{
+          margin: 0 10px -1px 10px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+//Itineraray CTA Stlye End
+
+
+
+
+
+
+
+
+
+
+
+
+
+//tribes-list.html specific styles end
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Custom CSS Styles 
+
+// Custom styles for Centering items inside a parent container
+
+.flex__{
+  // Custom style to center items horizontally and vertically
+  &center__items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  // Custom style to center items horizontally
+  &horizontal__items {
+    display: flex;
+    justify-content: center;
+  }
+
+  // Custom style to center items vertically
+  &vertical__items {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// To Align Text 
+
+.text__align__{
+  &left{
+    text-align: left !important;
+  }
+
+  &right{
+    text-align: right !important;
+  }
+
+  &center{
+    text-align: center !important;
+  }
+
+  &start{
+    text-align: start !important;
+  }
+
+  &end{
+    text-align: end !important;
+  }
+}
+
+// //Read More Link Effect
+// .read__more__link{
+//   a {
+//       color: map-get($colors, color-white);
+//   }
+//   &:after{
+//     display: inline-block;
+//     font-family: "Font Awesome 5 Free";
+//     content: "\f061";
+//     font-weight: 900;
+//     margin: 0 0 0 0.7em;
+//     transition: all 0.3s;
+//     // transform: translateX(-20px);
+//     // opacity: 0;
+//   }
+//   &:hover{
+//     &:after{
+//       display: inline-block;
+//       transform: translateX(10px);
+//       opacity: 1;
+//     }
+//   }
+// }
+
+.read__more__link{
+  font-size: 18px;
+  img{
+    margin: 0 10px 6px 10px;
+    transition: all 0.2s;
+
+  }
+  &:hover{
+    img{
+      transform: translateX(8px);
+      
+    }
+  }
+}
+
+ //Tags row
+ .tags__container{
+  span{
+    display: inline-block !important;
+    border-radius: 30%;
+    // background: #D3D3D3;
+    width: 5em;
+    height: 5em;
+    margin: 0 2.5% 0 0 !important;
+    // vertical-align: middle;  
+    font-size: 0.5em;
+    text-align: center;
+    line-height: 5em;
+  }
+}
+//Brush Stroke SVG
+.footer__brush__stroke{
+  position: relative;
+  top: -8%;
+  width: 100%;
+  height: 5%;
+  overflow: hidden;
+  img{
+    height: 150%;
+    width: 1600px;
+    position: relative;
+    top: 20%;
+    // left: 20%;
+    margin-left: -200px;
+  }
+}
+
+
+//Tribes, Festivals and Hotbeds Grid
+.grid__tfh{
+  grid-column: 1 / -1;
+  display: grid;
+  height: 100vh;
+  @include mobile{
+    height: auto;
+  }
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "tribes festivals"
+                       "tribes hotbeds";
+  @include mobile{
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "tribes tribes"
+                         "festivals festivals"
+                         "hotbeds hotbeds";
+  }
+  .tribes{
+    grid-area: tribes;
+    padding: 0 4em;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.webp');
+    background-size: cover;
+    background-position: center;
+    @include mobile{
+      padding: 0 1em;
+    }
+  }
+  .festivals{
+    grid-area: festivals;
+    padding: 1.5em 8em;
+    @include mobile{
+    padding: 1.5em 0em;
+
+    }
+    // margin: 1em 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/festivals.webp');
+    background-size: cover;
+    background-position: center center;
+    .image__information{
+      .read__more__link{
+        margin: 1em 0;
+      }
+    }
+    
+
+  }
+  .hotbeds{
+    grid-area: hotbeds;
+    padding: 1.5em 8em;
+    @include mobile{
+      padding: 1.5em 0em;
+  
+      }
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/hotbeds.webp');
+    background-size: cover;
+    .image__information{
+      .read__more__link{
+        margin: 1em 0;
+      }
+    }
+  
+
+
+  }
+}
+
+//Grid TFH Cell Style
+.image__information{
+  // grid-column: 7 / 12;
+  color: map-get($colors, color-white);
+  @include mobile{
+    grid-column: 1 / -1;
+    padding: 3em 1em;
+  }
+  span {
+    display: block;
+    margin: 0px 0px 1em 0px;
+  }
+  .tribe__description{
+    margin: 2em 0 !important;
+    padding: 0 !important;
+  }
+  //Tags container 
+  div{
+    margin: 1.5em 0;
+  }
+  
+  //State name Span
+  .state__name {
+    font-size: 10px;
+  }
+  //Tribe name H3
+  .tribe__name{
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  //Tribe Description p (paragraph)
+  .tribe__description{
+    padding: 0 20% 0 0;
+    margin: 0;
+    @include mobile{
+      padding: 0;
+    }
+  }
+  //Read More Link Fix
+  .read__more__link{
+    margin: 2em 0;
+    display: block;
+    img{
+      display: inline;
+    }
+  }
+
+}
+
+//Footer 
+
+footer{
+  display: grid !important;
+  grid-template-columns: 35% repeat(3, 1fr);
+  position: relative;
+  top: -8%;
+  // grid-template-rows: 10% auto;
+  margin: 0;
+  // background: #ffffff !important;
+  padding: 6em 0 1em 0;
+  @include mobile{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .footer__logo__container{
+    grid-column: 1 / span 1;
+    padding: 0 2em;
+    width: 100%;
+    // text-align: center;
+    .image-container{
+      width: 60%;
+      margin: 0 auto;
+    }
+    @include mobile{
+      grid-column: 1 / -1;
+      width: auto;
+     
+    }
+    
+    img{
+      max-width: 100%;
+    }
+    p{
+      color: map-get($colors, color-white);
+      font-size: 1em;
+      margin: 5em 0 3em 0;
+      text-align: center;
+      // text-justify: inter-word;
+    }
+    .icons__container{
+      margin: 3em 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 4em;
+      i{
+        font-size: 1.5em;
+        color: map-get($colors, color-white);
+        font-weight: 600;
+      }
+      //Flip phone icon
+      .fa-phone{
+        transform: scaleX(-1);
+      }
+    }
+  }
+  //Style for sitemap Container
+  //Gird Positioning using IDs
+  #sitemap__container__1{
+    grid-column: 2 / span 1;
+    @include mobile{
+      grid-column: 1 / -1;
+    }
+  }
+  #sitemap__container__2{
+    grid-column: 3 / span 1;
+    @include mobile{
+      grid-column: 1 / -1;
+      
+    }
+  }
+  #sitemap__container__3{
+    grid-column: 4 / span 1;
+    @include mobile{
+      grid-column: 1 / -1;
+      
+    }
+  }
+  .sitemap__container{
+    color: map-get($colors, color-white);
+    ul{
+      list-style-type: none;
+      padding: 0;
+      li{
+        padding: 0.3em 0;
+      }
+    }
+  }
+  #copyright__text{
+    grid-column: 1 / -1;
+    padding: 0 5em;
+    // text-align: center;
+    color: map-get($colors, color-white);
+  }
+}
+

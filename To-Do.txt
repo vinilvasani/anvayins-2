@@ -1,0 +1,35 @@
+1. Decide Optimal Breakpoint for Mobile
+2. Think about support for Internet Explorer 
+3. Convert all unique names from class to ID
+
+
+
+4. Understand image size mechanics and decide proper image size
+5. Check if em is the safest unit to assign
+6. Evaluate all !importants and eliminate it
+
+7. Clean and evaluate all custom styles.
+8. Look into how to make image responsive  
+
+9. Make First Web Page Mobile Responsive
+10. Add Bottom Image Gallery
+11. Add NavBar
+12. Fix Slide Number Bug
+13. Fix Page End Glitch Bug
+
+14. Convert all px units to em
+
+15. Fix stacked image animation trigger
+16. Complete GSAP Animation Using a Time Line
+
+17. Fix Polaroid Animation
+18. Write efficient code for polaroid animation (for loop, forEach)
+19. fix the main page and wrtie it again (!!!!Important)
+20. Look at efficient ways of loading image
+
+
+To Do for February 06, 2018
+1. Complete and Fix Images Animation
+2. Create Image Grid
+3. Create footer
+4. Make both pages responsive

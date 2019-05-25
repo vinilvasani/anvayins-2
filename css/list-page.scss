@@ -1,0 +1,36 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+
+//Change read more link arrow button color
+
+
+.section__read__more__link{
+    &:after{
+        color: #fff;
+    }
+}
+.read__more__link{
+    &:after{
+        color: #fff;
+    }
+}
+
+section{
+    @include mobile{
+        .stacked__images{
+            z-index: 0;
+          }
+    }
+    
+}
+
+.footer__brush__stroke{
+    position: relative;
+    top: -200px !important;
+}
+
+footer{
+    // position: relative;
+    // top: -200px;
+    margin-top: -200px;
+}
