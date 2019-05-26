@@ -144,6 +144,7 @@ $parallax__layers: 6;
     h1 {
       // font-size: 4em;
       margin: 20px 0;
+      display: none;
     }
     
     i {
@@ -1117,6 +1118,14 @@ section{
     }
   }
 }
+
+// #section__image__6{
+//   grid-column: 7 / -1;
+//   grid-row-start: 1;
+//   @include mobile{
+//     grid-column: 1 / -1;
+//   }
+// }
 
 .stacked__images{
   // grid-column: 1 / 7;

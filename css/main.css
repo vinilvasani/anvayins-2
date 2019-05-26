@@ -196,6 +196,7 @@ body {
 
 .main__heading h1 {
   margin: 20px 0;
+  display: none;
 }
 
 .main__heading i {
