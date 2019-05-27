@@ -1,0 +1,16 @@
+.experiences .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/Megha_3059.webp);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/Megha_3059.webp);
+  background-size: cover;
+}
+
+.experiences .bg-section-one .stacked__images__one #top__image__1 div {
+  background: url("../assets/images/tribes/tribes/archery.webp") !important;
+  background-size: cover !important;
+}
+
+.experiences .bg-section-one .stacked__images__one #bottom__image__1 div {
+  background: url("../assets/images/tribes/tribes/Megha_2890.webp") !important;
+  background-size: cover !important;
+}
+/*# sourceMappingURL=experiences.css.map */
