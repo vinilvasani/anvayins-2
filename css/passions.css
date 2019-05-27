@@ -96,4 +96,20 @@
   background: url("../assets/images/passions/passions/treks-of-menchuka-3.webp") !important;
   background-size: cover !important;
 }
+
+.passions .bg-section-seven {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/Megha_3059.webp);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/Megha_3059.webp);
+  background-size: cover;
+}
+
+.passions .bg-section-seven .stacked__images__seven #top__image__7 div {
+  background: url("../assets/images/tribes/tribes/Megha_2890.webp") !important;
+  background-size: cover !important;
+}
+
+.passions .bg-section-seven .stacked__images__seven #bottom__image__7 div {
+  background: url("../assets/images/tribes/tribes/archery.webp") !important;
+  background-size: cover !important;
+}
 /*# sourceMappingURL=passions.css.map */

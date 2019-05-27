@@ -4,6 +4,10 @@
 @import "helpers/global.scss";
 
 
+*{
+  scroll-behavior: smooth;
+}
+
 
 //Index.html Specific styles s
 .parallax__container{
