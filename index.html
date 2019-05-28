@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="/css/w3.css">
     <!-- Lightcase CSS -->
     <link rel="stylesheet" href="/vendor/lightbox/simpleLightbox.css">
-
+    <!-- Webp Detection -->
+    <script src="./js/modernizr-custom.js"></script>
 
 
 
@@ -497,14 +498,24 @@
         });
     });
 
+    // var imageFormat = "";
+    Modernizr.on('webp', function (result) {
+        if (result) {
+            // Has WebP support
+        }
+        else {
+            // No WebP support
+        }
+    });
+
     var lightbox = new SimpleLightbox({
         items: [
-            '/assets/images/Resized/7.webp',
-            '/assets/images/Resized/5.webp',
-            '/assets/images/Resized/9.webp',
-            '/assets/images/Resized/4.webp',
-            '/assets/images/Resized/8.webp',
-            '/assets/images/Resized/6.webp']
+            `/assets/images/Resized/7.${imageFormat}`,
+            `/assets/images/Resized/5.${imageFormat}`,
+            `/assets/images/Resized/9.${imageFormat}`,
+            `/assets/images/Resized/4.${imageFormat}`,
+            `/assets/images/Resized/8.${imageFormat}`,
+            `/assets/images/Resized/6.${imageFormat}`]
     });
 
     //Even Listener LightBox

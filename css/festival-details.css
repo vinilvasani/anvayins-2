@@ -58,6 +58,66 @@
   background-size: cover !important;
 }
 
+.no-webp .aoleang-festival .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/aoleang-festival/aoleang-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/aoleang-festival/aoleang-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .aoleang-festival .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/aoleang-festival/aoleang-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/aoleang-festival/aoleang-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .aoleang-festival .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/aoleang-festival/aoleang-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/aoleang-festival/aoleang-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .aoleang-festival .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/aoleang-festival/aoleang-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/aoleang-festival/aoleang-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .aoleang-festival .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/aoleang-festival/aoleang-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/aoleang-festival/aoleang-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__1 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__2 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__3 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__4 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__5 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .aoleang-festival #image__gallery__image__6 {
+  background: url("/assets/images/festivals/aoleang-festival/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .hornbill-festival .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-1.webp);
@@ -115,6 +175,66 @@
 
 .hornbill-festival #image__gallery__image__6 {
   background: url("/assets/images/festivals/hornbill-festival/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .hornbill-festival .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .hornbill-festival .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .hornbill-festival .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .hornbill-festival .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/hornbill-festival/hornbill-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/hornbill-festival/hornbill-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__1 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__2 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__3 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__4 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__5 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .hornbill-festival #image__gallery__image__6 {
+  background: url("/assets/images/festivals/hornbill-festival/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -178,6 +298,66 @@
   background-size: cover !important;
 }
 
+.no-webp .mopin-festival-of-the-galos .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/mopin-festival/mopin-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/mopin-festival/mopin-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .mopin-festival-of-the-galos .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/mopin-festival/mopin-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/mopin-festival/mopin-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .mopin-festival-of-the-galos .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/mopin-festival/mopin-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/mopin-festival/mopin-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .mopin-festival-of-the-galos .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/mopin-festival/mopin-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/mopin-festival/mopin-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .mopin-festival-of-the-galos .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/mopin-festival/mopin-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/mopin-festival/mopin-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__1 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__2 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__3 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__4 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__5 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .mopin-festival-of-the-galos #image__gallery__image__6 {
+  background: url("/assets/images/festivals/mopin-festival/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .reh-festival-of-the-idu-mishmis .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-1.webp);
@@ -238,6 +418,66 @@
   background-size: cover !important;
 }
 
+.no-webp .reh-festival-of-the-idu-mishmis .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/reh-festival/reh-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/reh-festival/reh-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__1 {
+  background: url("/assets/images/festivals/reh-festival/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__2 {
+  background: url("/assets/images/festivals/reh-festival/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__3 {
+  background: url("/assets/images/festivals/reh-festival/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__4 {
+  background: url("/assets/images/festivals/reh-festival/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__5 {
+  background: url("/assets/images/festivals/reh-festival/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .reh-festival-of-the-idu-mishmis #image__gallery__image__6 {
+  background: url("/assets/images/festivals/reh-festival/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .the-sonam-losar-festival .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-1.webp);
@@ -295,6 +535,66 @@
 
 .the-sonam-losar-festival #image__gallery__image__6 {
   background: url("/assets/images/festivals/sonam-losar-festival/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-sonam-losar-festival .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-sonam-losar-festival .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-sonam-losar-festival .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-sonam-losar-festival .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/festivals/sonam-losar-festival/sonam-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/festivals/sonam-losar-festival/sonam-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__1 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__2 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__3 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__4 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__5 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-sonam-losar-festival #image__gallery__image__6 {
+  background: url("/assets/images/festivals/sonam-losar-festival/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 

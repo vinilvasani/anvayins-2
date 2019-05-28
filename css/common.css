@@ -78,11 +78,50 @@ p {
 }
 
 .bg-primary-blue {
-  background: #0D98BA;
+  background: #0d98ba;
 }
 
 .bg-primary-darkgreen {
   background: #000f0f;
+}
+
+.no-webp .bg-paper {
+  background: url("/assets/images/brown-paper-full.jpg");
+  background-size: cover;
+}
+
+.no-webp .bg-seamless {
+  background: url("/assets/images/seamless-paper.jpg");
+  background-size: cover;
+}
+
+.no-webp .bg-paper-torn {
+  background: url("/assets/images/brown-paper.jpg");
+  background-position: bottom -50px center;
+  background-size: cover;
+}
+
+.no-webp .bg-paper-torn-inverted {
+  background: url("/assets/images/brown-paper-inverted.jpg");
+  background-size: cover;
+  background-position: top -30px center;
+  position: relative;
+  top: -40px;
+  padding: 10em 0 8em 0;
+}
+
+@media (max-width: 480px) {
+  .no-webp .bg-paper-torn-inverted {
+    top: -30px;
+    background-position: top -5px center;
+    padding: 8em 0 8.5em 0 !important;
+  }
+}
+
+.no-webp .bg-wood {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/wood-horizontal.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/wood-horizontal.jpg");
+  background-size: cover;
 }
 
 .bg-paper {
@@ -166,28 +205,53 @@ p {
 }
 
 .bg-section-one {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/9.webp");
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/9.webp");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/9.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/9.jpg");
 }
 
 .bg-section-two {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/8.webp");
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/8.webp");
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/8.jpg");
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/8.jpg");
 }
 
 .bg-section-three {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/6.webp");
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/6.webp");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/6.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/6.jpg");
 }
 
 .bg-section-four {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/5.webp");
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/5.webp");
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/5.jpg");
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/5.jpg");
 }
 
 .bg-section-five {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/10.webp");
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("/assets/images/Resized/10.webp");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/10.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("/assets/images/Resized/10.jpg");
+}
+
+.no-webp .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/9.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/9.jpg");
+}
+
+.no-webp .bg-section-two {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/8.jpg");
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/8.jpg");
+}
+
+.no-webp .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/6.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/6.jpg");
+}
+
+.no-webp .bg-section-four {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/5.jpg");
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/Resized/5.jpg");
+}
+
+.no-webp .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0))), url("/assets/images/Resized/10.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("/assets/images/Resized/10.jpg");
 }
 
 .modal {

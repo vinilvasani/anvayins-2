@@ -219,6 +219,72 @@ body {
   }
 }
 
+.webp .container__rest .grid .stacked__images__container {
+  background: url("/assets/images/brown-paper.webp");
+  background-size: cover;
+}
+
+.webp .container__rest .grid .stacked__images__container .stacked__images__2 div {
+  background: url("/assets/images/Resized/8.webp");
+  background-size: cover;
+}
+
+.webp .container__rest .grid .stacked__images__container .stacked__images__1 div {
+  background: url("/assets/images/Resized/9.webp");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .stacked__images__container {
+  background: url("/assets/images/brown-paper.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .stacked__images__container .stacked__images__2 div {
+  background: url("/assets/images/Resized/8.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .stacked__images__container .stacked__images__1 div {
+  background: url("/assets/images/Resized/9.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/assets/images/wood-horizontal.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/images/wood-horizontal.jpg);
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__1 {
+  background: url("/assets/images/Resized/7.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__2 {
+  background: url("/assets/images/Resized/5.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__3 {
+  background: url("/assets/images/Resized/9.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__4 {
+  background: url("/assets/images/Resized/4.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__5 {
+  background: url("/assets/images/Resized/8.jpg");
+  background-size: cover;
+}
+
+.no-webp .container__rest .grid .image__gallery__container .image__gallery #image__gallery__image__6 {
+  background: url("/assets/images/Resized/6.jpg");
+  background-size: cover;
+}
+
 .container__rest .grid {
   display: -ms-grid;
   display: grid;
@@ -814,6 +880,56 @@ body {
   color: #ffffff;
   text-align: center;
   padding: 1em 0;
+}
+
+.no-webp section #section__image__1 #bottom__image__1 div {
+  background: url("/assets/images/Resized/4.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__1 #top__image__1 div {
+  background: url("/assets/images/Resized/5.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__2 #bottom__image__2 div {
+  background: url("/assets/images/Resized/6.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__2 #top__image__2 div {
+  background: url("/assets/images/Resized/7.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__3 #bottom__image__3 div {
+  background: url("/assets/images/Resized/8.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__3 #top__image__3 div {
+  background: url("/assets/images/Resized/9.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__4 #bottom__image__4 div {
+  background: url("/assets/images/Resized/10.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__4 #top__image__4 div {
+  background: url("/assets/images/Resized/4.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__5 #bottom__image__5 div {
+  background: url("/assets/images/Resized/5.jpg");
+  background-size: cover;
+}
+
+.no-webp section #section__image__5 #top__image__5 div {
+  background: url("/assets/images/Resized/6.jpg");
+  background-size: cover;
 }
 
 section {
@@ -1491,6 +1607,42 @@ section .stacked__images__1 {
   margin-left: -200px;
 }
 
+.webp .grid__tfh .tribes {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/tribes.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/tribes.webp");
+  background-size: cover;
+}
+
+.webp .grid__tfh .festivals {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/festivals.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/festivals.webp");
+  background-size: cover;
+}
+
+.webp .grid__tfh .hotbeds {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/hotbeds.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/hotbeds.webp");
+  background-size: cover;
+}
+
+.no-webp .grid__tfh .tribes {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/tribes.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/tribes.jpg");
+  background-size: cover;
+}
+
+.no-webp .grid__tfh .festivals {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/festivals.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/festivals.jpg");
+  background-size: cover;
+}
+
+.no-webp .grid__tfh .hotbeds {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/hotbeds.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/hotbeds.jpg");
+  background-size: cover;
+}
+
 .grid__tfh {
   grid-column: 1 / -1;
   display: -ms-grid;
@@ -1523,8 +1675,6 @@ section .stacked__images__1 {
   -ms-grid-column: 1;
   grid-area: tribes;
   padding: 0 4em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/tribes.webp");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/tribes.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1540,8 +1690,6 @@ section .stacked__images__1 {
   -ms-grid-column: 2;
   grid-area: festivals;
   padding: 1.5em 8em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/festivals.webp");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/festivals.webp");
   background-size: cover;
   background-position: center center;
 }
@@ -1561,8 +1709,6 @@ section .stacked__images__1 {
   -ms-grid-column: 2;
   grid-area: hotbeds;
   padding: 1.5em 8em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/images/New/hotbeds.webp");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/New/hotbeds.webp");
   background-size: cover;
 }
 

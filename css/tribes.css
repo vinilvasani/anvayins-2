@@ -63,4 +63,70 @@
   background: url("../assets/images/tribes/tribes/memba-3.webp") !important;
   background-size: cover !important;
 }
+
+.no-webp .tribes .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/IMG_20190405_122146.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/IMG_20190405_122146.jpg);
+  background-size: cover;
+}
+
+.no-webp .tribes .bg-section-one .stacked__images__one #top__image__1 div {
+  background: url("../assets/images/tribes/tribes/IMG_20190405_121932.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .tribes .bg-section-one .stacked__images__one #bottom__image__1 div {
+  background: url("../assets/images/tribes/tribes/IMG_20190405_123839.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .tribes .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/konyak-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/konyak-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .tribes .bg-section-two .stacked__images__two #top__image__2 div {
+  background: url("../assets/images/tribes/tribes/konyak-2.jpg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.no-webp .tribes .bg-section-two .stacked__images__two #bottom__image__2 div {
+  background: url("../assets/images/tribes/tribes/konyak-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .tribes .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/majuli-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/majuli-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .tribes .bg-section-three .stacked__images__three #top__image__3 div {
+  background: url("../assets/images/tribes/tribes/majuli-2.jpg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.no-webp .tribes .bg-section-three .stacked__images__three #bottom__image__3 div {
+  background: url("../assets/images/tribes/tribes/majuli-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .tribes .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/tribes/memba-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/tribes/memba-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .tribes .bg-section-four .stacked__images__four #top__image__4 div {
+  background: url("../assets/images/tribes/tribes/memba-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .tribes .bg-section-four .stacked__images__four #bottom__image__4 div {
+  background: url("../assets/images/tribes/tribes/memba-3.jpg") !important;
+  background-size: cover !important;
+}
 /*# sourceMappingURL=tribes.css.map */

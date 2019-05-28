@@ -163,6 +163,94 @@ $parallax__layers: 6;
       }
     }
 }
+// WebP
+.webp{
+  .container__rest{
+    .grid{
+      .stacked__images__container{
+        background: url('/assets/images/brown-paper.webp');
+        background-size: cover;
+        .stacked__images{
+          &__2{
+            div{
+              background: url('/assets/images/Resized/8.webp');
+              background-size: cover;
+            }
+          }
+          &__1{
+            div{
+              background: url('/assets/images/Resized/9.webp');              
+              background-size: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// No Webp
+.no-webp{
+  .container__rest{
+    .grid{
+      .stacked__images__container{
+        background: url('/assets/images/brown-paper.jpg');
+        background-size: cover;
+        .stacked__images{
+          &__2{
+            div{
+              background: url('/assets/images/Resized/8.jpg');
+              background-size: cover;
+            }
+          }
+          &__1{
+            div{
+              background: url('/assets/images/Resized/9.jpg');              
+              background-size: cover;
+            }
+          }
+        }
+      }
+      .image__gallery__container{
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/images/wood-horizontal.jpg);
+        background-size: cover;
+
+        .image__gallery{
+          #image__gallery__image__1{
+            background: url('/assets/images/Resized/7.jpg');
+            background-size: cover;
+
+          }
+          #image__gallery__image__2{
+            background: url('/assets/images/Resized/5.jpg');
+            background-size: cover;
+
+          }
+          #image__gallery__image__3{
+            background: url('/assets/images/Resized/9.jpg');
+            background-size: cover;
+
+          }
+          #image__gallery__image__4{
+            background: url('/assets/images/Resized/4.jpg');
+            background-size: cover;
+
+          }
+          #image__gallery__image__5{
+            background: url('/assets/images/Resized/8.jpg');
+            background-size: cover;
+
+          }
+          #image__gallery__image__6{
+            background: url('/assets/images/Resized/6.jpg');
+            background-size: cover;
+
+          }
+
+        }
+      }
+    }
+  }
+}
 .container__rest {
     // position: absolute;
     // top: 80%;
@@ -714,7 +802,100 @@ $parallax__layers: 6;
 //Index.html Specific styles end
 
 
+.no-webp{
+  section{
+    //Stacked Section Images Stlye Start
+#section__image__1{
+  
+  #bottom__image__1{
+    div{
+      background: url('/assets/images/Resized/4.jpg');
+      background-size: cover;
 
+    }
+  }
+  #top__image__1{
+    div{
+      background: url('/assets/images/Resized/5.jpg');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__2{
+  
+  #bottom__image__2{
+    div{
+      background: url('/assets/images/Resized/6.jpg');
+      background-size: cover;
+
+    }
+  }
+  #top__image__2{
+    div{
+      background: url('/assets/images/Resized/7.jpg');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__3{
+ 
+  #bottom__image__3{
+    div{
+      background: url('/assets/images/Resized/8.jpg');
+      background-size: cover;
+
+    }
+  }
+  #top__image__3{
+    div{
+      background: url('/assets/images/Resized/9.jpg');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__4{
+
+  #bottom__image__4{
+    div{
+      background: url('/assets/images/Resized/10.jpg');
+      background-size: cover;
+
+    }
+  }
+  #top__image__4{
+    div{
+      background: url('/assets/images/Resized/4.jpg');
+      background-size: cover;
+
+    }
+  }
+}
+
+#section__image__5{
+
+  #bottom__image__5{
+    div{
+      background: url('/assets/images/Resized/5.jpg');
+      background-size: cover;
+
+    }
+  }
+  #top__image__5{
+    div{
+      background: url('/assets/images/Resized/6.jpg');
+      background-size: cover;
+
+    }
+  }
+}
+  }
+}
 
 
 
@@ -1407,6 +1588,52 @@ section{
 }
 
 
+.webp{
+  .grid__tfh{
+    .tribes{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.webp');
+    background-size: cover;
+
+    }
+    .festivals{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/festivals.webp');
+    background-size: cover;
+
+
+    }
+    .hotbeds{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/hotbeds.webp');
+    background-size: cover;
+
+
+    }
+  }
+}
+
+.no-webp{
+  .grid__tfh{
+    .tribes{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.jpg');
+    background-size: cover;
+
+
+    }
+    .festivals{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/festivals.jpg');
+    background-size: cover;
+
+
+    }
+    .hotbeds{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/hotbeds.jpg');
+    background-size: cover;
+
+
+    }
+  }
+}
+
+
 //Tribes, Festivals and Hotbeds Grid
 .grid__tfh{
   grid-column: 1 / -1;
@@ -1428,7 +1655,7 @@ section{
   .tribes{
     grid-area: tribes;
     padding: 0 4em;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.webp');
+    // background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.webp');
     background-size: cover;
     background-position: center;
     @include mobile{
@@ -1443,7 +1670,7 @@ section{
 
     }
     // margin: 1em 0;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/festivals.webp');
+    // background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/festivals.webp');
     background-size: cover;
     background-position: center center;
     .image__information{
@@ -1461,7 +1688,7 @@ section{
       padding: 1.5em 0em;
   
       }
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/hotbeds.webp');
+    // background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/hotbeds.webp');
     background-size: cover;
     .image__information{
       .read__more__link{

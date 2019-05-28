@@ -1,55 +1,181 @@
-.motorcycling-through-north-east-india{
-    .bg-section-one{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-1.webp);
-        background-size: cover;
+.motorcycling-through-north-east-india {
+  .bg-section-one {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-1.webp);
+    background-size: cover;
+  }
+  .bg-section-two {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-2.webp);
+    background-size: cover;
+  }
+  .bg-section-three {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-3.webp);
+    background-size: cover;
+  }
+
+  .bg-section-four {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-1.webp);
+    background-size: cover;
+  }
+
+  .bg-section-five {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-2.webp);
+    background-size: cover;
+  }
+  .bg-section-six {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/passions/motorcycling/bg-3.webp);
+    background-size: cover;
+  }
+
+  #image__gallery__image__1 {
+    background: url("/assets/images/passions/motorcycling/bg-1.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__2 {
+    background: url("/assets/images/passions/motorcycling/bg-2.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__3 {
+    background: url("/assets/images/passions/motorcycling/bg-3.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__4 {
+    background: url("/assets/images/passions/motorcycling/bg-1.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__5 {
+    background: url("/assets/images/passions/motorcycling/bg-2.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__6 {
+    background: url("/assets/images/passions/motorcycling/bg-3.webp") !important;
+    background-size: cover !important;
+  }
+}
+
+.no-webp {
+  .motorcycling-through-north-east-india {
+    .bg-section-one {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-1.jpg);
+      background-size: cover;
     }
-    .bg-section-two{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-2.webp);
-        background-size: cover;
+    .bg-section-two {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-2.jpg);
+      background-size: cover;
     }
-    .bg-section-three{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-3.webp);
-        background-size: cover;
+    .bg-section-three {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-3.jpg);
+      background-size: cover;
     }
 
-    .bg-section-four{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-1.webp);
-        background-size: cover;
+    .bg-section-four {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-1.jpg);
+      background-size: cover;
     }
-  
 
-    .bg-section-five{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-2.webp);
-        background-size: cover;
+    .bg-section-five {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-2.jpg);
+      background-size: cover;
     }
-    .bg-section-six{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-3.webp);
-        background-size: cover;
+    .bg-section-six {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/passions/motorcycling/bg-3.jpg);
+      background-size: cover;
     }
-  
-  
-    #image__gallery__image__1{
-        background: url('/assets/images/passions/motorcycling/bg-1.webp') !important;
-        background-size: cover !important;
+
+    #image__gallery__image__1 {
+      background: url("/assets/images/passions/motorcycling/bg-1.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__2{
-        background: url('/assets/images/passions/motorcycling/bg-2.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__2 {
+      background: url("/assets/images/passions/motorcycling/bg-2.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__3{
-        background: url('/assets/images/passions/motorcycling/bg-3.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__3 {
+      background: url("/assets/images/passions/motorcycling/bg-3.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__4{
-        background: url('/assets/images/passions/motorcycling/bg-1.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__4 {
+      background: url("/assets/images/passions/motorcycling/bg-1.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__5{
-        background: url('/assets/images/passions/motorcycling/bg-2.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__5 {
+      background: url("/assets/images/passions/motorcycling/bg-2.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__6{
-        background: url('/assets/images/passions/motorcycling/bg-3.webp') !important;
-        background-size: cover !important;
-    } 
+    #image__gallery__image__6 {
+      background: url("/assets/images/passions/motorcycling/bg-3.jpg") !important;
+      background-size: cover !important;
+    }
+  }
 }

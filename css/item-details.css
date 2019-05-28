@@ -40,6 +40,48 @@
   background-size: cover !important;
 }
 
+.no-webp .archery-in-the-abode-of-clouds .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/archery-of-the-khasis/Megha_3139.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/archery-of-the-khasis/Megha_3139.jpg);
+  background-size: cover;
+}
+
+.no-webp .archery-in-the-abode-of-clouds .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/archery-of-the-khasis/Megha_3059.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/archery-of-the-khasis/Megha_3059.jpg);
+  background-size: cover;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__1 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__2 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__3 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__4 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__5 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .archery-in-the-abode-of-clouds #image__gallery__image__6 {
+  background: url("/assets/images/tribes/archery-of-the-khasis/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .the-galos-of-aalo .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.webp);
@@ -115,6 +157,84 @@
 
 .the-galos-of-aalo #image__gallery__image__6 {
   background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121932.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121932.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121936.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121936.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122018.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122018.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122055.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122055.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-seven {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_123839.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_123839.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo .bg-section-eight {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__1 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__2 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_121932.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__3 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_121936.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__4 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_122018.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__5 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_122055.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-galos-of-aalo #image__gallery__image__6 {
+  background: url("/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.jpg") !important;
   background-size: cover !important;
 }
 
@@ -196,6 +316,84 @@
   background-size: cover !important;
 }
 
+.no-webp .the-konyaks .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-6.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-6.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-seven {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-7.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-7.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks .bg-section-eight {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-8.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/konyaks-of-east-nagaland/konyak-8.jpg);
+  background-size: cover;
+}
+
+.no-webp .the-konyaks #image__gallery__image__1 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-konyaks #image__gallery__image__2 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-konyaks #image__gallery__image__3 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-konyaks #image__gallery__image__4 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-konyaks #image__gallery__image__5 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .the-konyaks #image__gallery__image__6 {
+  background: url("/assets/images/tribes/konyaks-of-east-nagaland/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .majuli-more-than-meets-the-eye .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-1.webp);
@@ -271,6 +469,84 @@
 
 .majuli-more-than-meets-the-eye #image__gallery__image__6 {
   background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-6.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-6.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-seven {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-7.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-7.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye .bg-section-eight {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-8.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/majuli-cultural-capital-of-assam/majuli-8.jpg);
+  background-size: cover;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__1 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__2 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__3 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__4 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__5 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .majuli-more-than-meets-the-eye #image__gallery__image__6 {
+  background: url("/assets/images/tribes/majuli-cultural-capital-of-assam/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -352,6 +628,84 @@
   background-size: cover !important;
 }
 
+.no-webp .menchuka-and-the-membas .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-6.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-6.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-seven {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-7.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-7.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas .bg-section-eight {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/tribes/membas-of-menchuka/memba-8.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/membas-of-menchuka/memba-8.jpg);
+  background-size: cover;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__1 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__2 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__3 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__4 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__5 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .menchuka-and-the-membas #image__gallery__image__6 {
+  background: url("/assets/images/tribes/membas-of-menchuka/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .dzukou-valley .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/dzukou-valley/bg-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/dzukou-valley/bg-1.webp);
@@ -397,6 +751,54 @@
 
 .dzukou-valley #image__gallery__image__6 {
   background: url("/assets/images/passions/dzukou-valley/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/dzukou-valley/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/dzukou-valley/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .dzukou-valley .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/dzukou-valley/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/dzukou-valley/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .dzukou-valley .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/dzukou-valley/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/dzukou-valley/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__1 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__2 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__3 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__4 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__5 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .dzukou-valley #image__gallery__image__6 {
+  background: url("/assets/images/passions/dzukou-valley/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -451,6 +853,60 @@
 
 .forest-man-of-india #image__gallery__image__6 {
   background: url("/assets/images/passions/forest-man-of-india/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/forest-man-of-india/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/forest-man-of-india/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .forest-man-of-india .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/forest-man-of-india/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/forest-man-of-india/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .forest-man-of-india .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/forest-man-of-india/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/forest-man-of-india/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .forest-man-of-india .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/forest-man-of-india/bg-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/forest-man-of-india/bg-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__1 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__2 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__3 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__4 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__5 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .forest-man-of-india #image__gallery__image__6 {
+  background: url("/assets/images/passions/forest-man-of-india/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -514,6 +970,66 @@
   background-size: cover !important;
 }
 
+.no-webp .inthu-valley-trek .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/inthu-valley/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/inthu-valley/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .inthu-valley-trek .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/inthu-valley/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/inthu-valley/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .inthu-valley-trek .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/inthu-valley/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/inthu-valley/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .inthu-valley-trek .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/inthu-valley/bg-4.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/inthu-valley/bg-4.jpg);
+  background-size: cover;
+}
+
+.no-webp .inthu-valley-trek .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/inthu-valley/bg-5.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/inthu-valley/bg-5.jpg);
+  background-size: cover;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__1 {
+  background: url("/assets/images/passions/inthu-valley/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__2 {
+  background: url("/assets/images/passions/inthu-valley/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__3 {
+  background: url("/assets/images/passions/inthu-valley/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__4 {
+  background: url("/assets/images/passions/inthu-valley/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__5 {
+  background: url("/assets/images/passions/inthu-valley/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .inthu-valley-trek #image__gallery__image__6 {
+  background: url("/assets/images/passions/inthu-valley/gallery-6.jpg") !important;
+  background-size: cover !important;
+}
+
 .kaziranga .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/kaziranga/bg-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/kaziranga/bg-1.webp);
@@ -559,6 +1075,54 @@
 
 .kaziranga #image__gallery__image__6 {
   background: url("/assets/images/passions/kaziranga/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/kaziranga/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/kaziranga/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .kaziranga .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/kaziranga/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/kaziranga/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .kaziranga .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/kaziranga/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/kaziranga/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .kaziranga #image__gallery__image__1 {
+  background: url("/assets/images/passions/kaziranga/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga #image__gallery__image__2 {
+  background: url("/assets/images/passions/kaziranga/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga #image__gallery__image__3 {
+  background: url("/assets/images/passions/kaziranga/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga #image__gallery__image__4 {
+  background: url("/assets/images/passions/kaziranga/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga #image__gallery__image__5 {
+  background: url("/assets/images/passions/kaziranga/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .kaziranga #image__gallery__image__6 {
+  background: url("/assets/images/passions/kaziranga/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -628,6 +1192,72 @@
   background-size: cover !important;
 }
 
+.no-webp .motorcycling-through-north-east-india .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/motorcycling/bg-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/motorcycling/bg-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__1 {
+  background: url("/assets/images/passions/motorcycling/bg-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__2 {
+  background: url("/assets/images/passions/motorcycling/bg-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__3 {
+  background: url("/assets/images/passions/motorcycling/bg-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__4 {
+  background: url("/assets/images/passions/motorcycling/bg-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__5 {
+  background: url("/assets/images/passions/motorcycling/bg-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .motorcycling-through-north-east-india #image__gallery__image__6 {
+  background: url("/assets/images/passions/motorcycling/bg-3.jpg") !important;
+  background-size: cover !important;
+}
+
 .treks-of-menchuka .bg-section-one {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/menchuka-la-1.webp);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/menchuka-la-1.webp);
@@ -691,6 +1321,72 @@
 
 .treks-of-menchuka #image__gallery__image__6 {
   background: url("/assets/images/passions/treks-of-menchuka/gallery-6.webp") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka .bg-section-one {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/menchuka-la-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/menchuka-la-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka .bg-section-two {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/menchuka-la-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/menchuka-la-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka .bg-section-three {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/menchuka-la-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/menchuka-la-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka .bg-section-four {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/rinjinling-1.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/rinjinling-1.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka .bg-section-five {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/rinjinling-2.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/rinjinling-2.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka .bg-section-six {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(/assets/images/passions/treks-of-menchuka/rinjinling-3.jpg);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/passions/treks-of-menchuka/rinjinling-3.jpg);
+  background-size: cover;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__1 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-1.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__2 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-2.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__3 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-3.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__4 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-4.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__5 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-5.jpg") !important;
+  background-size: cover !important;
+}
+
+.no-webp .treks-of-menchuka #image__gallery__image__6 {
+  background: url("/assets/images/passions/treks-of-menchuka/gallery-6.jpg") !important;
   background-size: cover !important;
 }
 
@@ -780,6 +1476,11 @@ section .embedded-video-container .image-container {
 
 .section .label-container .label-content {
   margin: 0;
+}
+
+.no-webp .image__gallery__container {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/assets/images/wood-horizontal.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/images/wood-horizontal.jpg");
 }
 
 .image__gallery__container {

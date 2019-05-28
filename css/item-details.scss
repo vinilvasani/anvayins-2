@@ -3,228 +3,220 @@
 @import "tribe-details/tribe-details";
 @import "passions/passions";
 
-
-section{
-    .embedded-video-container{
-          // padding: 2em;
-          // @include mobile{
-          //   padding: 5em 2em 2em 2em;
-          // }
-          .image-container{
-            width: 12%;
-            @include mobile{
-              display: none;
-            }
-          }
+section {
+  .embedded-video-container {
+    // padding: 2em;
+    // @include mobile{
+    //   padding: 5em 2em 2em 2em;
+    // }
+    .image-container {
+      width: 12%;
+      @include mobile {
+        display: none;
+      }
     }
-    .stacked__images{
-      @include mobile{
-        .stacked__images{
-            z-index: 0;
-          }
+  }
+  .stacked__images {
+    @include mobile {
+      .stacked__images {
+        z-index: 0;
+      }
     }
   }
 }
 
-.three__column__content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.three__column__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 0;
+  p {
+    margin: 0;
+  }
+  @include mobile {
     padding: 2em 0;
-    p{
-      margin: 0;
+  }
+  // column-gap: 10px;
+  .content__1 {
+    align-items: center !important;
+    grid-column: 2 / span 1;
+    @include mobile {
+      grid-column: 1 / -1;
     }
-    @include mobile{
-      padding: 2em 0;
+    padding: 0 2em;
+    div {
+      position: relative;
+      top: -25px;
     }
-    // column-gap: 10px;
-    .content__1{
-        align-items: center !important;
-        grid-column: 2 / span 1;
-        @include mobile{
-          grid-column: 1 / -1
-        }
-        padding: 0 2em;
-        div{
-            position: relative;
-            top: -25px;
-        }
+  }
+  .content__2 {
+    align-items: center !important;
+    // margin-top: 3.2rem;
+    grid-column: 3 / span 1;
+    @include mobile {
+      grid-column: 1 / -1;
     }
-    .content__2{
-        align-items: center !important;
-        // margin-top: 3.2rem;
-        grid-column: 3 / span 1;
-        @include mobile{
-          grid-column: 1 / -1
-        }
-        padding: 0 2em;
-
-    }
-
+    padding: 0 2em;
+  }
 }
 
 //Play Button Image Size
-.section{
-    .image-container{
-        width: 10%;
-        margin: 2em 0;
+.section {
+  .image-container {
+    width: 10%;
+    margin: 2em 0;
+  }
+  .label-container {
+    margin: 3em 0;
+    .label {
+      margin: 0;
     }
-    .label-container{
-        margin: 3em 0;
-        .label{
-            margin: 0;
-        }
-        .label-content{
-            margin: 0;
-    
-        }
+    .label-content {
+      margin: 0;
     }
+  }
+}
+
+.no-webp {
+  .image__gallery__container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("/assets/images/wood-horizontal.jpg");
+  }
 }
 
 //Image Gallery Start
-.image__gallery__container{
-    // grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/assets/images/wood-horizontal.webp');
-    padding: 3em 0 8em 0;
-    background-size: cover;
-    position: relative;
-    top: -14%;
-    .image__gallery__title{
-      grid-column: 1 / -1;
-      display: flex;
-      justify-content: space-between;
-      margin: 2em 0;
-      padding: 0 4em;
-      @include mobile{
-        padding: 0 1em 0 2em;
-      }
-      h2{
-        margin: 0;
-      }
-      span{
-        color: map-get($colors, color-white);
-      }
+.image__gallery__container {
+  // grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/assets/images/wood-horizontal.webp");
+  padding: 3em 0 8em 0;
+  background-size: cover;
+  position: relative;
+  top: -14%;
+  .image__gallery__title {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+    padding: 0 4em;
+    @include mobile {
+      padding: 0 1em 0 2em;
     }
-    //Remove Ugly ScrollBar
-    .image__gallery::-webkit-scrollbar { /* WebKit */
-      width: 0px;
-    }
-    .image__gallery{
-      grid-column: 1 / -1;
-      // height: 500px;
-      // background: lime;
-      // width:  100%;
-      overflow: hidden;
-      padding: 2em 0 2em 3em;
-      display: flex;
+    h2 {
       margin: 0;
-      @include mobile{
-        overflow: auto;
-        //Remove Ugly ScrollBar
-        scrollbar-width: none; /* Firefox */
-        -ms-overflow-style: none;  /* IE 10+ */ 
+    }
+    span {
+      color: map-get($colors, color-white);
+    }
+  }
+  //Remove Ugly ScrollBar
+  .image__gallery::-webkit-scrollbar {
+    /* WebKit */
+    width: 0px;
+  }
+  .image__gallery {
+    grid-column: 1 / -1;
+    // height: 500px;
+    // background: lime;
+    // width:  100%;
+    overflow: hidden;
+    padding: 2em 0 2em 3em;
+    display: flex;
+    margin: 0;
+    @include mobile {
+      overflow: auto;
+      //Remove Ugly ScrollBar
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE 10+ */
+    }
+    figure {
+      background: map-get($colors, color-white);
+      margin: 0 -0.7em 0 0;
+      width: fit-content;
+      // position: absolute;
+      padding: 1em 1em 0 1em;
+      border-radius: 2px;
+      -webkit-box-shadow: -2px 5px 8px 2px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: -2px 5px 8px 2px rgba(0, 0, 0, 0.35);
+      box-shadow: -2px 5px 8px 2px rgba(0, 0, 0, 0.35);
+      transition: all 0.5s;
+
+      img {
+        height: 200px;
+        width: 200px;
+        // object-fit: contain
       }
-      figure{
-        background: map-get($colors, color-white);
-        margin: 0 -0.7em 0 0;
-        width: fit-content;
-        // position: absolute;
-        padding: 1em 1em 0 1em;
-        border-radius: 2px;
-        -webkit-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
-        -moz-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
-        box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.35);
-        transition: all 0.5s;
-        
-        img{
-          height: 200px;
-          width: 200px;
-          // object-fit: contain
-        }
-        div{
-          height: 200px;
-          width: 200px;
-          // background-size: cover;
-        }
-        #image__gallery__image__1{
-          background: url('/assets/images/Resized/7.webp');
-          background-size: cover;
+      div {
+        height: 200px;
+        width: 200px;
+        // background-size: cover;
+      }
+      #image__gallery__image__1 {
+        background: url("/assets/images/Resized/7.webp");
+        background-size: cover;
+      }
+      #image__gallery__image__2 {
+        background: url("/assets/images/Resized/5.webp");
+        background-size: cover;
+      }
+      #image__gallery__image__3 {
+        background: url("/assets/images/Resized/9.webp");
+        background-size: cover;
+      }
+      #image__gallery__image__4 {
+        background: url("/assets/images/Resized/4.webp");
+        background-size: cover;
+      }
+      #image__gallery__image__5 {
+        background: url("/assets/images/Resized/8.webp");
+        background-size: cover;
+      }
+      #image__gallery__image__6 {
+        background: url("/assets/images/Resized/6.webp");
+        background-size: cover;
+      }
+      &:hover {
+        transform: translateY(-10%) !important;
+      }
 
-        }
-        #image__gallery__image__2{
-          background: url('/assets/images/Resized/5.webp');
-          background-size: cover;
-
-        }
-        #image__gallery__image__3{
-          background: url('/assets/images/Resized/9.webp');
-          background-size: cover;
-
-        }
-        #image__gallery__image__4{
-          background: url('/assets/images/Resized/4.webp');
-          background-size: cover;
-
-        }
-        #image__gallery__image__5{
-          background: url('/assets/images/Resized/8.webp');
-          background-size: cover;
-
-        }
-        #image__gallery__image__6{
-          background: url('/assets/images/Resized/6.webp');
-          background-size: cover;
-
-        }
-        &:hover{
-          transform: translateY(-10%) !important;
-          
-        }
-    
-        figcaption{
-          color: map-get($colors, color-white);
-          text-align: center;
-          padding: 1em 0;
-    
-        }
-    
-        
+      figcaption {
+        color: map-get($colors, color-white);
+        text-align: center;
+        padding: 1em 0;
       }
     }
   }
-  //Image Gallery End
-
-  //Change read more link arrow button color
-
-.section__read__more__link{
-    &:after{
-        color: #fff;
-    }
 }
-.read__more__link{
-    &:after{
-        color: #fff;
-    }
+//Image Gallery End
+
+//Change read more link arrow button color
+
+.section__read__more__link {
+  &:after {
+    color: #fff;
+  }
+}
+.read__more__link {
+  &:after {
+    color: #fff;
+  }
 }
 
 // For loop to remove fixed height of section with no images
-@for $i from 3 through 5{
-  #section__image__#{$i}{
+@for $i from 3 through 5 {
+  #section__image__#{$i} {
     height: auto;
   }
 }
 
-.footer__brush__stroke{
+.footer__brush__stroke {
   position: relative;
   top: -190px !important;
 }
 
-footer{
+footer {
   // position: relative;
   // top: -190px;
   margin-top: -190px;
 }
-
-
-

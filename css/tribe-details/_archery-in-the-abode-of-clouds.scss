@@ -1,35 +1,97 @@
-.archery-in-the-abode-of-clouds{
-    .bg-section-one{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/archery-of-the-khasis/Megha_3139.webp);
-        background-size: cover;
+.archery-in-the-abode-of-clouds {
+  .bg-section-one {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/tribes/archery-of-the-khasis/Megha_3139.webp);
+    background-size: cover;
+  }
+  .bg-section-two {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/assets/images/tribes/archery-of-the-khasis/Megha_3059.webp);
+    background-size: cover;
+  }
+
+  #image__gallery__image__1 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-1.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__2 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-2.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__3 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-3.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__4 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-4.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__5 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-5.webp") !important;
+    background-size: cover !important;
+  }
+  #image__gallery__image__6 {
+    background: url("/assets/images/tribes/archery-of-the-khasis/gallery-6.webp") !important;
+    background-size: cover !important;
+  }
+}
+
+.no-webp {
+  .archery-in-the-abode-of-clouds {
+    .bg-section-one {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/tribes/archery-of-the-khasis/Megha_3139.jpg);
+      background-size: cover;
     }
-    .bg-section-two{
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/assets/images/tribes/archery-of-the-khasis/Megha_3059.webp);
-        background-size: cover;
+    .bg-section-two {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/assets/images/tribes/archery-of-the-khasis/Megha_3059.jpg);
+      background-size: cover;
     }
 
-    #image__gallery__image__1{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-1.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__1 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-1.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__2{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-2.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__2 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-2.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__3{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-3.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__3 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-3.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__4{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-4.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__4 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-4.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__5{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-5.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__5 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-5.jpg") !important;
+      background-size: cover !important;
     }
-    #image__gallery__image__6{
-        background: url('/assets/images/tribes/archery-of-the-khasis/gallery-6.webp') !important;
-        background-size: cover !important;
+    #image__gallery__image__6 {
+      background: url("/assets/images/tribes/archery-of-the-khasis/gallery-6.jpg") !important;
+      background-size: cover !important;
     }
+  }
 }
