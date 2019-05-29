@@ -19,6 +19,9 @@
     <!-- Webp Detection -->
     <script src="./js/modernizr-custom.js"></script>
 
+    <!-- Lazy Load JS -->
+    <!-- <script src="/js/lazyload.js"></script> -->
+
 
 
     <!-- Slick jQuery Slider -->
@@ -52,8 +55,8 @@
             </div>
             <!-- Navbar HTML end -->
             <div class="video-container">
-                <video autoplay loop muted>
-                    <source id="mp4" src="./assets/videos/AOLEANGMONYU-FinalVideo.mp4" type="video/mp4">
+                <video autoplay loop muted poster="./assets/images/Resized/5.jpg" preload="none">
+                    <source id="mp4" data-src="./assets/videos/AOLEANGMONYU-FinalVideo.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
@@ -66,6 +69,12 @@
             <h1 class="font-50 text-white video-text-4">Be one with them</h1>
             <h1 class="font-50 text-white video-text-5">Live their stories</h1>
             <h1 class="font-50 text-white video-text-6">Anvayins - Your gateway to a new world</h1>
+
+            <div class="image-container text__align__center video__button__one">
+
+                <img src="/assets/icons/play-button-circle-white.svg" alt="">
+
+            </div>
             <!-- <i class="fa fa-play-circle-o" aria-hidden="true"></i> -->
 
             <!-- <a class="lightBoxVideoLink" href="https://www.youtube.com/embed/qtQgbdmIO30?autoplay=true">
@@ -463,8 +472,22 @@
 
 
 <script>
-       
+
     $(document).ready(function () {
+
+        $(".video__button__one").click(function(){
+            //Video LazyLoad
+            $(".video-container video source").each(function () {
+                var sourceFile = $(this).attr("data-src");
+                $(this).attr("src", sourceFile);
+                var video = this.parentElement;
+                video.load();
+                video.play();
+            });
+            $(this).hide();
+        });
+
+        
 
         //LightBox Video
         // $('.lightBoxVideoLink').simpleLightbox();
@@ -501,11 +524,11 @@
 
 
     var imageFormat = "";
-       Modernizr.on('webp', function (result) {
+    Modernizr.on('webp', function (result) {
         if (result) {
             // Has WebP support
             imageFormat = "webp";
-        
+
         }
         else {
             // No WebP support
@@ -513,26 +536,26 @@
         }
 
         var lightbox = new SimpleLightbox({
-        items: [
-            `/assets/images/Resized/7.${imageFormat}`,
-            `/assets/images/Resized/5.${imageFormat}`,
-            `/assets/images/Resized/9.${imageFormat}`,
-            `/assets/images/Resized/4.${imageFormat}`,
-            `/assets/images/Resized/8.${imageFormat}`,
-            `/assets/images/Resized/6.${imageFormat}`]
-    });
-
-    //Even Listener LightBox
-    var lightboxImages = document.querySelectorAll('.lightbox__image');
-    lightboxImages.forEach((image, index) => {
-        image.addEventListener("click", function () {
-            lightbox.showPosition(index);
+            items: [
+                `/assets/images/Resized/7.${imageFormat}`,
+                `/assets/images/Resized/5.${imageFormat}`,
+                `/assets/images/Resized/9.${imageFormat}`,
+                `/assets/images/Resized/4.${imageFormat}`,
+                `/assets/images/Resized/8.${imageFormat}`,
+                `/assets/images/Resized/6.${imageFormat}`]
         });
-    })
-    });
- 
 
-    
+        //Even Listener LightBox
+        var lightboxImages = document.querySelectorAll('.lightbox__image');
+        lightboxImages.forEach((image, index) => {
+            image.addEventListener("click", function () {
+                lightbox.showPosition(index);
+            });
+        })
+    });
+
+
+
     var rellax = new Rellax('.rellax');
 
     //GSAP Animation

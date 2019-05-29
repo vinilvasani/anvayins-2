@@ -112,7 +112,6 @@ body {
 .parallax__container section .video-container {
   position: absolute;
   top: -150px;
-  left: -350px;
 }
 
 @media (max-width: 480px) {
