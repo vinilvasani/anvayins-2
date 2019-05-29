@@ -46,6 +46,8 @@
 
                 <i class="fas fa-bars" id="menu__icon"></i>
                 <nav id="nav__links">
+                    <!-- <i class="fas fa-bars" id="menu__icon"></i> -->
+
                     <a href="/tribes.html" class="text-white">Tribes</a>
                     <a href="/festivals.html" class="text-white">Festivals</a>
                     <a href="/adventures.html" class="text-white">Adventures</a>
@@ -55,7 +57,11 @@
             </div>
             <!-- Navbar HTML end -->
             <div class="video-container">
-                <video autoplay loop muted poster="./assets/images/Resized/5.jpg" preload="none">
+                <!-- PlaceHolder Image -->
+                <div class="placeholder-image">
+                    <!-- <img src="./assets/videos/placeholder.JPG" class="" alt=""> -->
+                </div>
+                <video loop muted poster="" preload="none">
                     <source id="mp4" data-src="./assets/videos/AOLEANGMONYU-FinalVideo.mp4" type="video/mp4">
                 </video>
             </div>
@@ -483,8 +489,12 @@
                 var video = this.parentElement;
                 video.load();
                 video.play();
+                $(video).on("loadstart", function() {
+                    console.log("Video Loaded");
+                    $('.placeholder-image').hide();
+                    $(".video__button__one").hide();
+                });
             });
-            $(this).hide();
         });
 
         

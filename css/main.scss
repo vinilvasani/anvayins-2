@@ -65,16 +65,39 @@
       position: absolute;
       top: -150px;
       // left: -350px;
-
+      width: 100%;
+      height: calc(100% + 150px);
       @include mobile{
-        top: -95px;
+        // top: -95px;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+
         // left: -250px;
 
       }
+      .placeholder-image{
+        height: 100%;
+        width: 100%;
+        background: url('../assets/videos/placeholder.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
       video{
         max-width: 120%;
+        top: 0;
+        @include custom-max(900px){
+          max-width: none;
+          position: relative;
+          top: 20px;
+
+        }
         @include mobile{
-        max-width: 180%;
+        max-width: none;
+        position: relative;
+        top: -140px;
+        // height: 100%;
 
         }
         // max-height: 100%;
@@ -634,6 +657,9 @@ $parallax__layers: 6;
         .stacked__images__information{
           .links__container{
             padding-right: 4em;
+            @include custom-max(480px){
+              padding-right: 0 !important;
+            }
             display: flex;
             justify-content: space-between;
             .read__more__link{
@@ -943,7 +969,11 @@ section{
   .logo__container{
     width: 14%;
     @include mobile{
-      width: 40%;
+      width: 20%;
+      display: inline-block;
+    }
+    @include custom-max(480px){
+      width: 40% !important;
       display: inline-block;
     }
     img{
@@ -974,7 +1004,9 @@ section{
       //TO center align the navbar items with the logo
       line-height: 40px;
       // display: none;
-      color: map-get($colors, primary-dark);
+      @include mobile{
+        color: map-get($colors, primary-dark) !important;
+      }
       // max-height: 0;
     }
   }
@@ -1593,6 +1625,9 @@ section{
     .tribes{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.webp');
     background-size: cover;
+    @include custom-max(480px){
+      background-position: 45%;
+    }
 
     }
     .festivals{
@@ -1615,6 +1650,9 @@ section{
     .tribes{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/assets/images/New/tribes.jpg');
     background-size: cover;
+    @include custom-max(480px){
+      background-position: 45%;
+    }
 
 
     }

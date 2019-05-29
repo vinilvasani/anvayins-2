@@ -1,18 +1,18 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Butler', sans-serif;
+  box-sizing: border-box;
+  font-family: "Butler", sans-serif;
   text-decoration: none;
 }
 
 html,
 body {
-  background-color: #FEDCC8;
+  background-color: #fedcc8;
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style-type: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*# sourceMappingURL=global.css.map */

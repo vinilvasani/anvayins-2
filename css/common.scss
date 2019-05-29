@@ -409,7 +409,11 @@ p {
   .logo__container {
     width: 14%;
     @include mobile {
-      width: 40%;
+      width: 20%;
+      display: inline-block;
+    }
+    @include custom-max(480px) {
+      width: 40% !important;
       display: inline-block;
     }
     img {
@@ -439,7 +443,7 @@ p {
       //TO center align the navbar items with the logo
       line-height: 40px;
       // display: none;
-      color: map-get($colors, primary-dark);
+      color: map-get($colors, primary-dark) !important;
       // max-height: 0;
     }
   }

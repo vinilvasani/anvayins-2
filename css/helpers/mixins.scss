@@ -1,7 +1,18 @@
 // Mixin for Mobile Media Query
 
 @mixin mobile {
-    @media (max-width: #{$mobile_breakpoint}) {
-      @content;
-    }
+  @media (max-width: #{$mobile_breakpoint}) {
+    @content;
   }
+}
+
+@mixin custom-max($breakpoint) {
+  @media (max-width: #{$breakpoint}) {
+    @content;
+  }
+}
+@mixin custom-min($breakpoint) {
+  @media (min-width: #{$breakpoint}) {
+    @content;
+  }
+}
