@@ -443,7 +443,9 @@ p {
       //TO center align the navbar items with the logo
       line-height: 40px;
       // display: none;
-      color: map-get($colors, primary-dark) !important;
+      @include mobile {
+        color: map-get($colors, primary-dark) !important;
+      }
       // max-height: 0;
     }
   }
