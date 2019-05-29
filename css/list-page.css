@@ -6,7 +6,7 @@
   color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   section .stacked__images {
     z-index: 0;
   }

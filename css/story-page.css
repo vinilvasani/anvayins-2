@@ -6,7 +6,7 @@
   padding: 5em 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   #section__5__container {
     position: relative;
     top: -52px;
@@ -28,7 +28,7 @@ footer {
   padding: 10em 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .itinerary__cta {
     padding-bottom: 8em !important;
     margin-top: -105px;

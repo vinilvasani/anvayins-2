@@ -661,7 +661,7 @@ $parallax__layers: 6;
               padding-right: 0 !important;
             }
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             .read__more__link{
               padding: 0;
             }
@@ -691,7 +691,7 @@ $parallax__layers: 6;
             margin: 0 0.8em 0 0;
           }
           h2{
-            margin: 2.5em 0 1em 0;
+            margin: 0.6em 0 1em 0;
           }
           p{ 
             margin: 1em 0;
@@ -1804,8 +1804,12 @@ footer{
   }
   
   .footer__logo__container{
-    grid-column: 1 / span 1;
-    padding: 0 2em;
+    // grid-column: 1 / span 1;
+    grid-column: 1 / -1;
+    padding: 0 25%;
+    @include custom-max(480px){
+      padding: 0 10%;
+    }
     width: 100%;
     // text-align: center;
     .image-container{
@@ -1868,6 +1872,7 @@ footer{
   }
   .sitemap__container{
     color: map-get($colors, color-white);
+    display: none;
     ul{
       list-style-type: none;
       padding: 0;
