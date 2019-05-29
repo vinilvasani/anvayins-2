@@ -641,24 +641,36 @@
                 .addTo(controller)
         });
 
-        // Lightbox
+        var imageFormat = "";
+       Modernizr.on('webp', function (result) {
+        if (result) {
+            // Has WebP support
+            imageFormat = "webp";
+        
+        }
+        else {
+            // No WebP support
+            imageFormat = "jpg";
+        }
+
         var lightbox = new SimpleLightbox({
             items: [
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.webp', 
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_121932.webp', 
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_121936.webp', 
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_122018.webp', 
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_122055.webp', 
-                '/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.webp']
-        });
-
-        //Even Listener LightBox
-        var lightboxImages = document.querySelectorAll('.lightbox__image');
-        lightboxImages.forEach((image, index) => {
-            image.addEventListener("click", function () {
-                lightbox.showPosition(index);
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_121914.${imageFormat}`, 
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_121932.${imageFormat}`, 
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_121936.${imageFormat}`, 
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_122018.${imageFormat}`, 
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_122055.${imageFormat}`, 
+                `/assets/images/tribes/galos-of-aalo/IMG_20190405_122146.${imageFormat}`]
             });
-        })
+    
+            //Even Listener LightBox
+            var lightboxImages = document.querySelectorAll('.lightbox__image');
+            lightboxImages.forEach((image, index) => {
+                image.addEventListener("click", function () {
+                    lightbox.showPosition(index);
+                });
+            })
+       });
     </script>
 </body>
 

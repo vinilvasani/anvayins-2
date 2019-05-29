@@ -446,19 +446,28 @@
 
         });
 
-
+        var imageFormat = "";
+       Modernizr.on('webp', function (result) {
+        if (result) {
+            // Has WebP support
+            imageFormat = "webp";
         
-        // Lightbox
-            var lightbox = new SimpleLightbox({
-                items: [
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-1.webp', 
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-2.webp', 
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-3.webp', 
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-4.webp', 
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-5.webp', 
-                    '/assets/images/tribes/archery-of-the-khasis/gallery-6.webp']
-            });
+        }
+        else {
+            // No WebP support
+            imageFormat = "jpg";
+        }
 
+        var lightbox = new SimpleLightbox({
+            items: [
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-1.${imageFormat}`, 
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-2.${imageFormat}`, 
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-3.${imageFormat}`, 
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-4.${imageFormat}`, 
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-5.${imageFormat}`, 
+                    `/assets/images/tribes/archery-of-the-khasis/gallery-6.${imageFormat}`]
+            });
+    
             //Even Listener LightBox
             var lightboxImages = document.querySelectorAll('.lightbox__image');
             lightboxImages.forEach((image, index) => {
@@ -466,6 +475,11 @@
                     lightbox.showPosition(index);
                 });
             })
+       });
+
+
+
+ 
     </script>
 </body>
 

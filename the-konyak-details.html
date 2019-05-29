@@ -620,24 +620,36 @@
             .addTo(controller)
     });
 
-     // Lightbox
-     var lightbox = new SimpleLightbox({
-            items: [
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-1.webp', 
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-2.webp', 
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-3.webp', 
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-4.webp', 
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-5.webp', 
-                '/assets/images/tribes/konyaks-of-east-nagaland/gallery-6.webp']
-        });
+    var imageFormat = "";
+       Modernizr.on('webp', function (result) {
+        if (result) {
+            // Has WebP support
+            imageFormat = "webp";
+        
+        }
+        else {
+            // No WebP support
+            imageFormat = "jpg";
+        }
 
-        //Even Listener LightBox
-        var lightboxImages = document.querySelectorAll('.lightbox__image');
-        lightboxImages.forEach((image, index) => {
-            image.addEventListener("click", function () {
-                lightbox.showPosition(index);
+        var lightbox = new SimpleLightbox({
+                items: [
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-1.${imageFormat}`, 
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-2.${imageFormat}`, 
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-3.${imageFormat}`, 
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-4.${imageFormat}`, 
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-5.${imageFormat}`, 
+                    `/assets/images/tribes/konyaks-of-east-nagaland/gallery-6.${imageFormat}`]
             });
-        })
+    
+            //Even Listener LightBox
+            var lightboxImages = document.querySelectorAll('.lightbox__image');
+            lightboxImages.forEach((image, index) => {
+                image.addEventListener("click", function () {
+                    lightbox.showPosition(index);
+                });
+            })
+       });
 </script>
 </body>
 </html>

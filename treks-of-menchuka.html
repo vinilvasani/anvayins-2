@@ -571,15 +571,27 @@
             .addTo(controller)
     });
 
-     // Lightbox
+    var imageFormat = "";
+       Modernizr.on('webp', function (result) {
+        if (result) {
+            // Has WebP support
+            imageFormat = "webp";
+        
+        }
+        else {
+            // No WebP support
+            imageFormat = "jpg";
+        }
+
+        // Lightbox
      var lightbox = new SimpleLightbox({
             items: [
-                '/assets/images/passions/treks-of-menchuka/gallery-1.JPG', 
-                '/assets/images/passions/treks-of-menchuka/gallery-2.JPG', 
-                '/assets/images/passions/treks-of-menchuka/gallery-3.JPG', 
-                '/assets/images/passions/treks-of-menchuka/gallery-4.JPG', 
-                '/assets/images/passions/treks-of-menchuka/gallery-5.JPG', 
-                '/assets/images/passions/treks-of-menchuka/gallery-6.JPG']
+                `/assets/images/passions/treks-of-menchuka/gallery-1.${imageFormat}`, 
+                `/assets/images/passions/treks-of-menchuka/gallery-2.${imageFormat}`, 
+                `/assets/images/passions/treks-of-menchuka/gallery-3.${imageFormat}`, 
+                `/assets/images/passions/treks-of-menchuka/gallery-4.${imageFormat}`, 
+                `/assets/images/passions/treks-of-menchuka/gallery-5.${imageFormat}`, 
+                `/assets/images/passions/treks-of-menchuka/gallery-6.${imageFormat}`]
         });
 
         //Even Listener LightBox
@@ -589,6 +601,10 @@
                 lightbox.showPosition(index);
             });
         })
+    });
+    
+
+     
 </script>
 </body>
 </html>
