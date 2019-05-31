@@ -643,6 +643,13 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 980px) {
+  .container__rest .grid .stacked__images__container #stacked__images__home figure div {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 .container__rest .grid .stacked__images__container .stacked__images {
   -ms-grid-column: 1;
   -ms-grid-column-span: 6;
